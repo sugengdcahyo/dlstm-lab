@@ -46,8 +46,15 @@ INSTALLED_APPS = [
     'services'
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "https://dukun.sugengdcahyo.com",
+    "https://sub.example.com",
+    "http://localhost:8080"
+]
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
+    "django.middleware.common.CommonMiddleware",
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
