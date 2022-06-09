@@ -9,15 +9,19 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+bin/
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
+etc/
+include/
 lib/
-lib64/
+lib64
 parts/
 sdist/
+share/
 var/
 wheels/
 pip-wheel-metadata/
@@ -26,6 +30,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+pyvenv.cfg
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
