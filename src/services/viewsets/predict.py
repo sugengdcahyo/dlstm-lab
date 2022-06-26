@@ -14,7 +14,7 @@ class PredictViewsets(generics.CreateAPIView, viewsets.GenericViewSet):
 
         predicted = []
         for i in range(int(request.data['range'])):
-            predicted.append({"time": i, "value": random.randint(800, 3000)})
+            predicted.append({"time": i+1, "value": random.randint(800, 3000)})
 
         return Response(predicted, status=status.HTTP_200_OK)
 
