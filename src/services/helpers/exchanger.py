@@ -32,7 +32,6 @@ class ExchangeRates(BaseExchange):
 
     def fetch_date_range_histories(self, bcc, scc, gte, lte):
         url = f"{self.url}/exchange-rate-chart"
-
         querystring = {
                 "amount":"1",
                 "bcc": bcc,
