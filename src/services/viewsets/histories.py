@@ -17,9 +17,39 @@ class HistoriesViewsets(generics.ListAPIView, viewsets.GenericViewSet):
         params = {
             "gte": request.GET.get('gte') or str(datetime.today().date() + timedelta(-7)),
             "lte": request.GET.get('lte') or str(datetime.today().date()),
-            "bcc": request.GET.get('bcc'),
-            "scc": request.GET.get('scc')
+            "bcc": request.GET.get('bcc') or "USD",
+            "scc": request.GET.get('scc') or "IDR"
         }
         exchange.fetch_date_range_histories(**params)
-        histories = history_standarization(exchange.data)
+        histories = history_standarization(data=exchange.data)
         return Response({**params, "data":histories})
+
+class HistoryOneDayViewsets(generics.ListAPIView, viewsets.GenericViewSet):
+    permission_classes = (permissions.AllowAny,)
+
+    def get_change_rate(self, current, last_one):
+        return current - last_one
+    
+    def get_percentage_change_rate(self, last_one, change_rate):
+        return change_rate / last_one
+
+    def list(self, request, *args, **kwargs):
+        exchange = ExchangeRates()
+        params = {
+                "gte": datetime.today().date() + timedelta(-1),
+                "lte": datetime.today().date(),
+                "bcc": request.GET.get('bcc') or "USD",
+                "scc": request.GET.get('scc') or "IDR"
+            }
+        exchange.fetch_date_range_histories(**params)
+        change_rate = exchange.data[1][1] - exchange.data[0][1]
+        change_rate_percentage = change_rate / exchange.data[0][1]
+        return Response({
+            **params, 
+            "histories": exchange.data,
+            "data": {
+                "value": exchange.data[1][1],
+                "change": round(change_rate, 2),
+                "percentage": round(change_rate_percentage * 100, 2)
+            }
+        })

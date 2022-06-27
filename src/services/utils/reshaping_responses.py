@@ -1,10 +1,16 @@
 
-def history_standarization(data):
+def history_standarization(data=[]) -> list:
     buckets = []
+    data.reverse()
     for i, item in enumerate(data):
+        
+        change_rate = 0 if i+1 == len(data) else data[i][1] - data[i+1][1]
         buckets.append({
-            "index": i+1,
+            "index": len(data)-i,
             "date": item[0],
-            "value": round(item[1], 4)})
-
+            "value": round(item[1], 4),
+            "change_rate": change_rate,
+            "change_percentage": round(change_rate / item[1], 4) * 100
+        })
+    buckets.reverse()
     return buckets
