@@ -8,8 +8,8 @@ def history_standarization(data=[]) -> list:
         buckets.append({
             "index": len(data)-i,
             "date": item[0],
-            "value": round(item[1], 4),
-            "change_rate": change_rate,
+            "value": round(item[1], 3),
+            "change_rate": round(change_rate, 4),
             "change_percentage": round(change_rate / item[1], 4) * 100
         })
     buckets.reverse()
