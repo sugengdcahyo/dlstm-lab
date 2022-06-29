@@ -32,11 +32,31 @@ class HistoryOneDayViewsets(generics.ListAPIView, viewsets.GenericViewSet):
     
     def get_percentage_change_rate(self, last_one, change_rate):
         return change_rate / last_one
-
+    
+    sample_response = [{
+            "bcc": "USD",
+            "scc": "IDR",
+            "gte": 223480234,
+            "lte": 129389012,
+            "data": {
+                "today": {
+                    "value": 12312,
+                    "timestamp": 129813,
+                },
+                "one_day_before": {
+                    "value": 1231,
+                    "timestamp": 1928312
+                },
+                "exchange": {
+                    "rate": -0.12,
+                    "percentage": -0.001
+                }
+            }
+        }]
     def list(self, request, *args, **kwargs):
         exchange = ExchangeRates()
         params = {
-                "gte": datetime.today().date() + timedelta(-1),
+                "gte": datetime.today().date() + timedelta(-30),
                 "lte": datetime.today().date(),
                 "bcc": request.GET.get('bcc') or "USD",
                 "scc": request.GET.get('scc') or "IDR"
