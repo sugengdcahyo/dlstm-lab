@@ -21,7 +21,7 @@ class DashboardViewsets(generics.ListAPIView, viewsets.GenericViewSet):
                 "lte": datetime.today().date(),
                 "scc": request.GET.get('scc') or "IDR"
             }
-        target = ["USD", "JPY", "SGD"]
+        target = ["USD", "JPY"]
         responses = []
         for exch in target:
             exchange = ExchangeRates()
