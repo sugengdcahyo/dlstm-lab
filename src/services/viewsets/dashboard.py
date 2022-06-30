@@ -6,6 +6,35 @@ from rest_framework.response import Response
 from services.helpers.exchanger import ExchangeRates
 
 
+class DashboardTableViewsets(generics.ListAPIView, viewsets.GenericViewSet):
+    permission_classes = (permissions.AllowAny,)
+    
+    def list(self, request, *args, **kwargs):
+        '''
+        1. get exchange 1 months.
+        2. get 2 data for onday operation.
+        3. get 7 data for one week operation.
+        4. get 1 month data for one month operation.
+        5. concate all data to one response
+        sample = {
+            [date, value]
+        }
+        '''
+        params = {
+                "gte": request.GET.get('gte') or datetime.today().date() + timedelta(-30),
+                "lte": request.GET.get('lte') or datetime.today().date(),
+                "scc": request.GET.get('scc') or "IDR",
+                "bcc": request.GET.get('bcc') or "USD"
+            }
+        exchange = ExchangeRates()
+        exchange.fetch_date_range_histories(**params)
+        response = {
+                "oneday": [{}],
+                "oneweek": [{}],
+                "onemonth": exchange.data
+            }
+        return Response(response)
+
 class DashboardViewsets(generics.ListAPIView, viewsets.GenericViewSet):
     permission_classes = (permissions.AllowAny,)
     sample_response = None
