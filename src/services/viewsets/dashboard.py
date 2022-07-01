@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from services.helpers.exchanger import ExchangeRates
 
 
-class DashboardTableViewsets(generics.ListAPIView, viewsets.GenericViewSet):
+class DashboardHistogramViewsets(generics.ListAPIView, viewsets.GenericViewSet):
     permission_classes = (permissions.AllowAny,)
     
     def list(self, request, *args, **kwargs):
