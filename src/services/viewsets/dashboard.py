@@ -30,10 +30,19 @@ class DashboardHistogramViewsets(generics.ListAPIView, viewsets.GenericViewSet):
         exchange.fetch_date_range_histories(**params)
         response = {
                 "oneday": [{}],
-                "oneweek": [{}],
+                "data_tables": self.data_tables(exchange.data[len(exchange.data)-7:]),
                 "onemonth": exchange.data
             }
         return Response(response)
+
+    def data_tables(self, rows):
+        buckets = []
+        for item in rows:
+            buckets.append({
+                "date": item[0],
+                "rate": item[1],
+            })
+        return buckets
 
 class DashboardViewsets(generics.ListAPIView, viewsets.GenericViewSet):
     permission_classes = (permissions.AllowAny,)
