@@ -1,4 +1,5 @@
 from rest_framework import routers
+from services.viewsets.analyze import AnalyzeViewsets
 
 from services.viewsets.rates import RatesViewsets
 from services.viewsets.currency import CurrencyViewsets
@@ -9,6 +10,7 @@ from .viewsets.predict import PredictViewsets
 
 router = routers.DefaultRouter()
 
+router.register('analyze/predict', AnalyzeViewsets, basename='analyze-histories')
 router.register('currency', CurrencyViewsets, basename='currency-histories')
 router.register('dashboard/charts', DashboardViewsets, basename='dashboard-charts-viewsets')
 router.register('dashboard/histogram', DashboardHistogramViewsets, basename='dashboard-histogram-viewsets')
