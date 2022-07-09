@@ -29,7 +29,6 @@ ALLOWED_HOSTS = ["dukun.sugengdcahyo.com", "localhost", "127.0.0.1", "dlstm.suge
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,11 +39,14 @@ INSTALLED_APPS = [
 
     'corsheaders',
     'django_extensions',
+    'django_crontab',
     'rest_framework',
 
     'labs',
     'services'
 ]
+
+from .crontab_config import *
 
 CORS_ALLOWED_ORIGINS = [
     "https://dukun.sugengdcahyo.com",
