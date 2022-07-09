@@ -11,11 +11,10 @@ class PredictViewsets(generics.CreateAPIView, viewsets.GenericViewSet):
             validate = self.validate(request.data)
         except BaseException as e:
             return Response({"message": str(e)}, status=status.HTTP_400_BAD_REQUEST)
-
         predicted = []
         for i in range(int(request.data['range'])):
             predicted.append({"time": i+1, "value": random.randint(800, 3000)})
-
+        
         return Response(predicted, status=status.HTTP_200_OK)
 
     def validate(self, data):

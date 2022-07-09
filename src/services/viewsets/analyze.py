@@ -35,8 +35,9 @@ class AnalyzeViewsets(generics.CreateAPIView, viewsets.GenericViewSet):
 
 
         for idx in range(validate['timestep']):
+            randomize = [f"2021-1-{idx+5}", None, randrange(10000, 15000)]
             predict_buckets.append(
-                [f"2021-1-{idx+5}", None, randrange(10000, 15000)]
+                randomize
             )
 
         return Response(predict_buckets)
