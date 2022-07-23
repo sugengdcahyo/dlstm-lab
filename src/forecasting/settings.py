@@ -50,7 +50,7 @@ from .crontab_config import *
 
 CORS_ALLOWED_ORIGINS = [
     "https://dukun.sugengdcahyo.com",
-    "https://sub.example.com",
+    "https://exchange.mekarsa.com",
     "http://localhost:8080"
 ]
 
