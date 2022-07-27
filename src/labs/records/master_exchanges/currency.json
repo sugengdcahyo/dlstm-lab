@@ -1,0 +1,1792 @@
+[
+    {
+        "name": "USD United States Dollar",
+        "rate": 1,
+        "flagImg": "/flags/us.svg",
+        "flagAlt": "National flag of the United States of America",
+        "currency": "USD",
+        "currencyName": "United States Dollar",
+        "issuer": "USA",
+        "item": "<img src=\"/flags/us.svg\" width=\"16\" height=\"16\" alt=\"National flag of the United States of America\"> <strong>USD</strong> United States Dollar"
+    },
+    {
+        "name": "EUR Euro",
+        "rate": "0.94646400000000",
+        "flagImg": "/flags/eu.svg",
+        "flagAlt": "Flag of the European Union",
+        "currency": "EUR",
+        "currencyName": "Euro",
+        "issuer": "European Union",
+        "item": "<img src=\"/flags/eu.svg\" width=\"16\" height=\"16\" alt=\"Flag of the European Union\"> <strong>EUR</strong> Euro"
+    },
+    {
+        "name": "BTC Bitcoin",
+        "rate": "0.00004750306600",
+        "flagImg": "/flags/btc.svg",
+        "flagAlt": "Bitcoin",
+        "currency": "BTC",
+        "currencyName": "Bitcoin",
+        "issuer": "Cryptocurrency",
+        "item": "<img src=\"/flags/btc.svg\" width=\"16\" height=\"16\" alt=\"Bitcoin\"> <strong>BTC</strong> Bitcoin"
+    },
+    {
+        "name": "DOGE Dogecoin",
+        "rate": "13.53321168090000",
+        "flagImg": "/flags/doge.svg",
+        "flagAlt": "Dogecoin",
+        "currency": "DOGE",
+        "currencyName": "Dogecoin",
+        "issuer": "Cryptocurrency",
+        "item": "<img src=\"/flags/doge.svg\" width=\"16\" height=\"16\" alt=\"Dogecoin\"> <strong>DOGE</strong> Dogecoin"
+    },
+    {
+        "name": "GBP British Pound",
+        "rate": "0.81370700000000",
+        "flagImg": "/flags/gb.svg",
+        "flagAlt": "National flag of the United Kingdom of Great Britain and Northern Ireland",
+        "currency": "GBP",
+        "currencyName": "British Pound",
+        "issuer": "United Kingdom",
+        "item": "<img src=\"/flags/gb.svg\" width=\"16\" height=\"16\" alt=\"National flag of the United Kingdom of Great Britain and Northern Ireland\"> <strong>GBP</strong> British Pound"
+    },
+    {
+        "name": "CNY Chinese Yuan",
+        "rate": "6.68980000000000",
+        "flagImg": "/flags/cn.svg",
+        "flagAlt": "National flag of the People's Republic of China",
+        "currency": "CNY",
+        "currencyName": "Chinese Yuan",
+        "issuer": "China",
+        "item": "<img src=\"/flags/cn.svg\" width=\"16\" height=\"16\" alt=\"National flag of the People&#039;s Republic of China\"> <strong>CNY</strong> Chinese Yuan"
+    },
+    {
+        "name": "INR Indian Rupee",
+        "rate": "78.25278400000000",
+        "flagImg": "/flags/in.svg",
+        "flagAlt": "National flag of the Republic of India",
+        "currency": "INR",
+        "currencyName": "Indian Rupee",
+        "issuer": "India",
+        "item": "<img src=\"/flags/in.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Republic of India\"> <strong>INR</strong> Indian Rupee"
+    },
+    {
+        "name": "AED United Arab Emirates Dirham",
+        "rate": "3.67301700000000",
+        "flagImg": "/flags/ae.svg",
+        "flagAlt": "National flag of the United Arab Emirates",
+        "currency": "AED",
+        "currencyName": "United Arab Emirates Dirham",
+        "issuer": "UAE",
+        "item": "<img src=\"/flags/ae.svg\" width=\"16\" height=\"16\" alt=\"National flag of the United Arab Emirates\"> <strong>AED</strong> United Arab Emirates Dirham"
+    },
+    {
+        "name": "AFN Afghan Afghani",
+        "rate": "89.25367800000000",
+        "flagImg": "/flags/af.svg",
+        "flagAlt": "National flag of Afghanistan",
+        "currency": "AFN",
+        "currencyName": "Afghan Afghani",
+        "issuer": "Afghanistan",
+        "item": "<img src=\"/flags/af.svg\" width=\"16\" height=\"16\" alt=\"National flag of Afghanistan\"> <strong>AFN</strong> Afghan Afghani"
+    },
+    {
+        "name": "ALL Albanian Lek",
+        "rate": "113.22462100000000",
+        "flagImg": "/flags/al.svg",
+        "flagAlt": "National flag of Albania",
+        "currency": "ALL",
+        "currencyName": "Albanian Lek",
+        "issuer": "Albania",
+        "item": "<img src=\"/flags/al.svg\" width=\"16\" height=\"16\" alt=\"National flag of Albania\"> <strong>ALL</strong> Albanian Lek"
+    },
+    {
+        "name": "AMD Armenian Dram",
+        "rate": "420.49256300000000",
+        "flagImg": "/flags/am.svg",
+        "flagAlt": "National flag of Armenia",
+        "currency": "AMD",
+        "currencyName": "Armenian Dram",
+        "issuer": "Armenia",
+        "item": "<img src=\"/flags/am.svg\" width=\"16\" height=\"16\" alt=\"National flag of Armenia\"> <strong>AMD</strong> Armenian Dram"
+    },
+    {
+        "name": "ANG Netherlands Antillean Guilder",
+        "rate": "1.80302700000000",
+        "flagImg": "/flags/xx.svg",
+        "flagAlt": "National flag of Netherlands Antilles",
+        "currency": "ANG",
+        "currencyName": "Netherlands Antillean Guilder",
+        "issuer": "Netherlands Antilles",
+        "item": "<img src=\"/flags/xx.svg\" width=\"16\" height=\"16\" alt=\"National flag of Netherlands Antilles\"> <strong>ANG</strong> Netherlands Antillean Guilder"
+    },
+    {
+        "name": "AOA Angolan Kwanza",
+        "rate": "429.17860000000000",
+        "flagImg": "/flags/ao.svg",
+        "flagAlt": "National flag of Angola",
+        "currency": "AOA",
+        "currencyName": "Angolan Kwanza",
+        "issuer": "Angola",
+        "item": "<img src=\"/flags/ao.svg\" width=\"16\" height=\"16\" alt=\"National flag of Angola\"> <strong>AOA</strong> Angolan Kwanza"
+    },
+    {
+        "name": "ARS Argentine Peso",
+        "rate": "124.17677900000000",
+        "flagImg": "/flags/ar.svg",
+        "flagAlt": "National flag of Argentine Republic",
+        "currency": "ARS",
+        "currencyName": "Argentine Peso",
+        "issuer": "Argentina",
+        "item": "<img src=\"/flags/ar.svg\" width=\"16\" height=\"16\" alt=\"National flag of Argentine Republic\"> <strong>ARS</strong> Argentine Peso"
+    },
+    {
+        "name": "AUD Australian Dollar",
+        "rate": "1.43798900000000",
+        "flagImg": "/flags/au.svg",
+        "flagAlt": "National flag of the Commonwealth of Australia",
+        "currency": "AUD",
+        "currencyName": "Australian Dollar",
+        "issuer": "Australia",
+        "item": "<img src=\"/flags/au.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Commonwealth of Australia\"> <strong>AUD</strong> Australian Dollar"
+    },
+    {
+        "name": "AWG Aruban Florin",
+        "rate": "1.79500000000000",
+        "flagImg": "/flags/aw.svg",
+        "flagAlt": "National flag of Aruba",
+        "currency": "AWG",
+        "currencyName": "Aruban Florin",
+        "issuer": "Aruba",
+        "item": "<img src=\"/flags/aw.svg\" width=\"16\" height=\"16\" alt=\"National flag of Aruba\"> <strong>AWG</strong> Aruban Florin"
+    },
+    {
+        "name": "AZN Azerbaijanian Manat",
+        "rate": "1.70000000000000",
+        "flagImg": "/flags/az.svg",
+        "flagAlt": "National flag of Azerbaijan",
+        "currency": "AZN",
+        "currencyName": "Azerbaijanian Manat",
+        "issuer": "Azerbaijan",
+        "item": "<img src=\"/flags/az.svg\" width=\"16\" height=\"16\" alt=\"National flag of Azerbaijan\"> <strong>AZN</strong> Azerbaijanian Manat"
+    },
+    {
+        "name": "BAM Convertible Mark",
+        "rate": "1.85681500000000",
+        "flagImg": "/flags/ba.svg",
+        "flagAlt": "National flag of Bosnia and Herzegovina",
+        "currency": "BAM",
+        "currencyName": "Convertible Mark",
+        "issuer": "Bosnia and Herzegovina",
+        "item": "<img src=\"/flags/ba.svg\" width=\"16\" height=\"16\" alt=\"National flag of Bosnia and Herzegovina\"> <strong>BAM</strong> Convertible Mark"
+    },
+    {
+        "name": "BBD Barbados Dollar",
+        "rate": "2.00000000000000",
+        "flagImg": "/flags/bb.svg",
+        "flagAlt": "National flag of Barbados",
+        "currency": "BBD",
+        "currencyName": "Barbados Dollar",
+        "issuer": "Barbados",
+        "item": "<img src=\"/flags/bb.svg\" width=\"16\" height=\"16\" alt=\"National flag of Barbados\"> <strong>BBD</strong> Barbados Dollar"
+    },
+    {
+        "name": "BDT Bangladeshi Taka",
+        "rate": "92.86963100000000",
+        "flagImg": "/flags/bd.svg",
+        "flagAlt": "National flag of the People's Republic of Bangladesh",
+        "currency": "BDT",
+        "currencyName": "Bangladeshi Taka",
+        "issuer": "Bangladesh",
+        "item": "<img src=\"/flags/bd.svg\" width=\"16\" height=\"16\" alt=\"National flag of the People&#039;s Republic of Bangladesh\"> <strong>BDT</strong> Bangladeshi Taka"
+    },
+    {
+        "name": "BGN Bulgarian Lev",
+        "rate": "1.85152500000000",
+        "flagImg": "/flags/bg.svg",
+        "flagAlt": "National flag of Bulgaria",
+        "currency": "BGN",
+        "currencyName": "Bulgarian Lev",
+        "issuer": "Bulgaria",
+        "item": "<img src=\"/flags/bg.svg\" width=\"16\" height=\"16\" alt=\"National flag of Bulgaria\"> <strong>BGN</strong> Bulgarian Lev"
+    },
+    {
+        "name": "BHD Bahraini Dinar",
+        "rate": "0.37706500000000",
+        "flagImg": "/flags/bh.svg",
+        "flagAlt": "National flag of Bahrain",
+        "currency": "BHD",
+        "currencyName": "Bahraini Dinar",
+        "issuer": "Bahrain",
+        "item": "<img src=\"/flags/bh.svg\" width=\"16\" height=\"16\" alt=\"National flag of Bahrain\"> <strong>BHD</strong> Bahraini Dinar"
+    },
+    {
+        "name": "BIF Burundi Franc",
+        "rate": "2049.91898000000000",
+        "flagImg": "/flags/bi.svg",
+        "flagAlt": "National flag of Burundi",
+        "currency": "BIF",
+        "currencyName": "Burundi Franc",
+        "issuer": "Burundi",
+        "item": "<img src=\"/flags/bi.svg\" width=\"16\" height=\"16\" alt=\"National flag of Burundi\"> <strong>BIF</strong> Burundi Franc"
+    },
+    {
+        "name": "BMD Bermudian Dollar",
+        "rate": "1.00000000000000",
+        "flagImg": "/flags/bm.svg",
+        "flagAlt": "National flag of Bermuda",
+        "currency": "BMD",
+        "currencyName": "Bermudian Dollar",
+        "issuer": "Bermuda",
+        "item": "<img src=\"/flags/bm.svg\" width=\"16\" height=\"16\" alt=\"National flag of Bermuda\"> <strong>BMD</strong> Bermudian Dollar"
+    },
+    {
+        "name": "BND Brunei Dollar",
+        "rate": "1.38940300000000",
+        "flagImg": "/flags/bn.svg",
+        "flagAlt": "National flag of Brunei Darussalam",
+        "currency": "BND",
+        "currencyName": "Brunei Dollar",
+        "issuer": "Brunei Darussalam",
+        "item": "<img src=\"/flags/bn.svg\" width=\"16\" height=\"16\" alt=\"National flag of Brunei Darussalam\"> <strong>BND</strong> Brunei Dollar"
+    },
+    {
+        "name": "BOB Boliviano",
+        "rate": "6.88789900000000",
+        "flagImg": "/flags/bo.svg",
+        "flagAlt": "National flag of Plurinational State of Bolivia",
+        "currency": "BOB",
+        "currencyName": "Boliviano",
+        "issuer": "Plurinational State of Bolivia",
+        "item": "<img src=\"/flags/bo.svg\" width=\"16\" height=\"16\" alt=\"National flag of Plurinational State of Bolivia\"> <strong>BOB</strong> Boliviano"
+    },
+    {
+        "name": "BRL Brazilian Real",
+        "rate": "5.24290700000000",
+        "flagImg": "/flags/br.svg",
+        "flagAlt": "National flag of the Federative Republic of Brazil",
+        "currency": "BRL",
+        "currencyName": "Brazilian Real",
+        "issuer": "Brazil",
+        "item": "<img src=\"/flags/br.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Federative Republic of Brazil\"> <strong>BRL</strong> Brazilian Real"
+    },
+    {
+        "name": "BSD Bahamian Dollar",
+        "rate": "1.00000000000000",
+        "flagImg": "/flags/bs.svg",
+        "flagAlt": "National flag of The Bahamas",
+        "currency": "BSD",
+        "currencyName": "Bahamian Dollar",
+        "issuer": "The Bahamas",
+        "item": "<img src=\"/flags/bs.svg\" width=\"16\" height=\"16\" alt=\"National flag of The Bahamas\"> <strong>BSD</strong> Bahamian Dollar"
+    },
+    {
+        "name": "BTN Bhutanese Ngultrum",
+        "rate": "78.28355200000000",
+        "flagImg": "/flags/bt.svg",
+        "flagAlt": "National flag of Bhutan",
+        "currency": "BTN",
+        "currencyName": "Bhutanese Ngultrum",
+        "issuer": "Bhutan",
+        "item": "<img src=\"/flags/bt.svg\" width=\"16\" height=\"16\" alt=\"National flag of Bhutan\"> <strong>BTN</strong> Bhutanese Ngultrum"
+    },
+    {
+        "name": "BTS BitShares",
+        "rate": "89.62560943400000",
+        "flagImg": "/flags/bts.svg",
+        "flagAlt": "BitShares",
+        "currency": "BTS",
+        "currencyName": "BitShares",
+        "issuer": "Cryptocurrency",
+        "item": "<img src=\"/flags/bts.svg\" width=\"16\" height=\"16\" alt=\"BitShares\"> <strong>BTS</strong> BitShares"
+    },
+    {
+        "name": "BWP Botswana Pula",
+        "rate": "12.21523900000000",
+        "flagImg": "/flags/bw.svg",
+        "flagAlt": "National flag of Botswana",
+        "currency": "BWP",
+        "currencyName": "Botswana Pula",
+        "issuer": "Botswana",
+        "item": "<img src=\"/flags/bw.svg\" width=\"16\" height=\"16\" alt=\"National flag of Botswana\"> <strong>BWP</strong> Botswana Pula"
+    },
+    {
+        "name": "BYN Belarussian Ruble",
+        "rate": "3.37734300000000",
+        "flagImg": "/flags/by.svg",
+        "flagAlt": "National flag of Belarus",
+        "currency": "BYN",
+        "currencyName": "Belarussian Ruble",
+        "issuer": "Belarus",
+        "item": "<img src=\"/flags/by.svg\" width=\"16\" height=\"16\" alt=\"National flag of Belarus\"> <strong>BYN</strong> Belarussian Ruble"
+    },
+    {
+        "name": "BZD Belize Dollar",
+        "rate": "2.01656700000000",
+        "flagImg": "/flags/bz.svg",
+        "flagAlt": "National flag of Belize",
+        "currency": "BZD",
+        "currencyName": "Belize Dollar",
+        "issuer": "Belize",
+        "item": "<img src=\"/flags/bz.svg\" width=\"16\" height=\"16\" alt=\"National flag of Belize\"> <strong>BZD</strong> Belize Dollar"
+    },
+    {
+        "name": "CAD Canadian Dollar",
+        "rate": "1.28911700000000",
+        "flagImg": "/flags/ca.svg",
+        "flagAlt": "National flag of Canada",
+        "currency": "CAD",
+        "currencyName": "Canadian Dollar",
+        "issuer": "Canada",
+        "item": "<img src=\"/flags/ca.svg\" width=\"16\" height=\"16\" alt=\"National flag of Canada\"> <strong>CAD</strong> Canadian Dollar"
+    },
+    {
+        "name": "CDF Congolese Franc",
+        "rate": "2000.51073500000000",
+        "flagImg": "/flags/cd.svg",
+        "flagAlt": "National flag of DR Congo",
+        "currency": "CDF",
+        "currencyName": "Congolese Franc",
+        "issuer": "DR Congo",
+        "item": "<img src=\"/flags/cd.svg\" width=\"16\" height=\"16\" alt=\"National flag of DR Congo\"> <strong>CDF</strong> Congolese Franc"
+    },
+    {
+        "name": "CHF Swiss Franc",
+        "rate": "0.95669100000000",
+        "flagImg": "/flags/ch.svg",
+        "flagAlt": "National flag of Switzerland",
+        "currency": "CHF",
+        "currencyName": "Swiss Franc",
+        "issuer": "Switzerland",
+        "item": "<img src=\"/flags/ch.svg\" width=\"16\" height=\"16\" alt=\"National flag of Switzerland\"> <strong>CHF</strong> Swiss Franc"
+    },
+    {
+        "name": "CLF Unidad de Fomento",
+        "rate": "0.03326500000000",
+        "flagImg": "/flags/cl.svg",
+        "flagAlt": "National flag of Chili",
+        "currency": "CLF",
+        "currencyName": "Unidad de Fomento",
+        "issuer": "Chili",
+        "item": "<img src=\"/flags/cl.svg\" width=\"16\" height=\"16\" alt=\"National flag of Chili\"> <strong>CLF</strong> Unidad de Fomento"
+    },
+    {
+        "name": "CLP Chilean Peso",
+        "rate": "915.95242000000000",
+        "flagImg": "/flags/cl.svg",
+        "flagAlt": "National flag of Chile",
+        "currency": "CLP",
+        "currencyName": "Chilean Peso",
+        "issuer": "Chile",
+        "item": "<img src=\"/flags/cl.svg\" width=\"16\" height=\"16\" alt=\"National flag of Chile\"> <strong>CLP</strong> Chilean Peso"
+    },
+    {
+        "name": "CNH Renminbi",
+        "rate": "6.68828000000000",
+        "flagImg": "/flags/hk.svg",
+        "flagAlt": "National flag of Hong Kong",
+        "currency": "CNH",
+        "currencyName": "Renminbi",
+        "issuer": "Hong Kong",
+        "item": "<img src=\"/flags/hk.svg\" width=\"16\" height=\"16\" alt=\"National flag of Hong Kong\"> <strong>CNH</strong> Renminbi"
+    },
+    {
+        "name": "COP Colombian Peso",
+        "rate": "4091.53189400000000",
+        "flagImg": "/flags/co.svg",
+        "flagAlt": "National flag of Colombia",
+        "currency": "COP",
+        "currencyName": "Colombian Peso",
+        "issuer": "Colombia",
+        "item": "<img src=\"/flags/co.svg\" width=\"16\" height=\"16\" alt=\"National flag of Colombia\"> <strong>COP</strong> Colombian Peso"
+    },
+    {
+        "name": "CRC Costa Rican Colon",
+        "rate": "691.65760300000000",
+        "flagImg": "/flags/cr.svg",
+        "flagAlt": "National flag of Costa Rica",
+        "currency": "CRC",
+        "currencyName": "Costa Rican Colon",
+        "issuer": "Costa Rica",
+        "item": "<img src=\"/flags/cr.svg\" width=\"16\" height=\"16\" alt=\"National flag of Costa Rica\"> <strong>CRC</strong> Costa Rican Colon"
+    },
+    {
+        "name": "CUC Cuban Convertible Peso",
+        "rate": "1.00000000000000",
+        "flagImg": "/flags/cu.svg",
+        "flagAlt": "National flag of Cuba",
+        "currency": "CUC",
+        "currencyName": "Cuban Convertible Peso",
+        "issuer": "Cuba",
+        "item": "<img src=\"/flags/cu.svg\" width=\"16\" height=\"16\" alt=\"National flag of Cuba\"> <strong>CUC</strong> Cuban Convertible Peso"
+    },
+    {
+        "name": "CUP Cuban Peso",
+        "rate": "25.75000000000000",
+        "flagImg": "/flags/cu.svg",
+        "flagAlt": "National flag of Cuba",
+        "currency": "CUP",
+        "currencyName": "Cuban Peso",
+        "issuer": "Cuba",
+        "item": "<img src=\"/flags/cu.svg\" width=\"16\" height=\"16\" alt=\"National flag of Cuba\"> <strong>CUP</strong> Cuban Peso"
+    },
+    {
+        "name": "CVE Cabo Verde Escudo",
+        "rate": "104.95000000000000",
+        "flagImg": "/flags/cv.svg",
+        "flagAlt": "National flag of Cape Verde",
+        "currency": "CVE",
+        "currencyName": "Cabo Verde Escudo",
+        "issuer": "Cape Verde",
+        "item": "<img src=\"/flags/cv.svg\" width=\"16\" height=\"16\" alt=\"National flag of Cape Verde\"> <strong>CVE</strong> Cabo Verde Escudo"
+    },
+    {
+        "name": "CZK Czech Koruna",
+        "rate": "23.41498500000000",
+        "flagImg": "/flags/cz.svg",
+        "flagAlt": "National flag of the Czech Republic",
+        "currency": "CZK",
+        "currencyName": "Czech Koruna",
+        "issuer": "Czech Republic",
+        "item": "<img src=\"/flags/cz.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Czech Republic\"> <strong>CZK</strong> Czech Koruna"
+    },
+    {
+        "name": "DASH DASH",
+        "rate": "0.02000647470000",
+        "flagImg": "/flags/dash.svg",
+        "flagAlt": "DASH",
+        "currency": "DASH",
+        "currencyName": "DASH",
+        "issuer": "Cryptocurrency",
+        "item": "<img src=\"/flags/dash.svg\" width=\"16\" height=\"16\" alt=\"DASH\"> <strong>DASH</strong>"
+    },
+    {
+        "name": "DJF Djibouti Franc",
+        "rate": "177.99215700000000",
+        "flagImg": "/flags/dj.svg",
+        "flagAlt": "National flag of Djibouti",
+        "currency": "DJF",
+        "currencyName": "Djibouti Franc",
+        "issuer": "Djibouti",
+        "item": "<img src=\"/flags/dj.svg\" width=\"16\" height=\"16\" alt=\"National flag of Djibouti\"> <strong>DJF</strong> Djibouti Franc"
+    },
+    {
+        "name": "DKK Danish Krone",
+        "rate": "7.04304200000000",
+        "flagImg": "/flags/dk.svg",
+        "flagAlt": "National flag of Denmark",
+        "currency": "DKK",
+        "currencyName": "Danish Krone",
+        "issuer": "Denmark",
+        "item": "<img src=\"/flags/dk.svg\" width=\"16\" height=\"16\" alt=\"National flag of Denmark\"> <strong>DKK</strong> Danish Krone"
+    },
+    {
+        "name": "DOP Dominican Peso",
+        "rate": "54.53822400000000",
+        "flagImg": "/flags/do.svg",
+        "flagAlt": "National flag of National flag of the Dominican Republic",
+        "currency": "DOP",
+        "currencyName": "Dominican Peso",
+        "issuer": "Dominican Republic",
+        "item": "<img src=\"/flags/do.svg\" width=\"16\" height=\"16\" alt=\"National flag of National flag of the Dominican Republic\"> <strong>DOP</strong> Dominican Peso"
+    },
+    {
+        "name": "DZD Algerian Dinar",
+        "rate": "145.79394500000000",
+        "flagImg": "/flags/dz.svg",
+        "flagAlt": "National flag of Algeria",
+        "currency": "DZD",
+        "currencyName": "Algerian Dinar",
+        "issuer": "Algeria",
+        "item": "<img src=\"/flags/dz.svg\" width=\"16\" height=\"16\" alt=\"National flag of Algeria\"> <strong>DZD</strong> Algerian Dinar"
+    },
+    {
+        "name": "EGP Egyptian Pound",
+        "rate": "18.76186300000000",
+        "flagImg": "/flags/eg.svg",
+        "flagAlt": "National flag of Egypt",
+        "currency": "EGP",
+        "currencyName": "Egyptian Pound",
+        "issuer": "Egypt",
+        "item": "<img src=\"/flags/eg.svg\" width=\"16\" height=\"16\" alt=\"National flag of Egypt\"> <strong>EGP</strong> Egyptian Pound"
+    },
+    {
+        "name": "ERN Eritrean Nakfa",
+        "rate": "15.00000100000000",
+        "flagImg": "/flags/er.svg",
+        "flagAlt": "National flag of Eritrea",
+        "currency": "ERN",
+        "currencyName": "Eritrean Nakfa",
+        "issuer": "Eritrea",
+        "item": "<img src=\"/flags/er.svg\" width=\"16\" height=\"16\" alt=\"National flag of Eritrea\"> <strong>ERN</strong> Eritrean Nakfa"
+    },
+    {
+        "name": "ETB Ethiopian Birr",
+        "rate": "52.04751000000000",
+        "flagImg": "/flags/et.svg",
+        "flagAlt": "National flag of Ethiopia",
+        "currency": "ETB",
+        "currencyName": "Ethiopian Birr",
+        "issuer": "Ethiopia",
+        "item": "<img src=\"/flags/et.svg\" width=\"16\" height=\"16\" alt=\"National flag of Ethiopia\"> <strong>ETB</strong> Ethiopian Birr"
+    },
+    {
+        "name": "ETH Ethereum",
+        "rate": "0.00082734630000",
+        "flagImg": "/flags/eth.svg",
+        "flagAlt": "Ethereum",
+        "currency": "ETH",
+        "currencyName": "Ethereum",
+        "issuer": "Cryptocurrency",
+        "item": "<img src=\"/flags/eth.svg\" width=\"16\" height=\"16\" alt=\"Ethereum\"> <strong>ETH</strong> Ethereum"
+    },
+    {
+        "name": "FJD Fiji Dollar",
+        "rate": "2.19208000000000",
+        "flagImg": "/flags/fj.svg",
+        "flagAlt": "National flag of Fiji",
+        "currency": "FJD",
+        "currencyName": "Fiji Dollar",
+        "issuer": "Fiji",
+        "item": "<img src=\"/flags/fj.svg\" width=\"16\" height=\"16\" alt=\"National flag of Fiji\"> <strong>FJD</strong> Fiji Dollar"
+    },
+    {
+        "name": "FKP Falkland Islands Pound",
+        "rate": "0.81370700000000",
+        "flagImg": "/flags/fk.svg",
+        "flagAlt": "National flag of Falkland Islands",
+        "currency": "FKP",
+        "currencyName": "Falkland Islands Pound",
+        "issuer": "Falkland Islands",
+        "item": "<img src=\"/flags/fk.svg\" width=\"16\" height=\"16\" alt=\"National flag of Falkland Islands\"> <strong>FKP</strong> Falkland Islands Pound"
+    },
+    {
+        "name": "GEL Georgian Lari",
+        "rate": "2.94000000000000",
+        "flagImg": "/flags/ge.svg",
+        "flagAlt": "National flag of Georgia",
+        "currency": "GEL",
+        "currencyName": "Georgian Lari",
+        "issuer": "Georgia",
+        "item": "<img src=\"/flags/ge.svg\" width=\"16\" height=\"16\" alt=\"National flag of Georgia\"> <strong>GEL</strong> Georgian Lari"
+    },
+    {
+        "name": "GGP Guernsey Pound",
+        "rate": "0.81370700000000",
+        "flagImg": "/flags/gg.svg",
+        "flagAlt": "National flag of Guernsey",
+        "currency": "GGP",
+        "currencyName": "Guernsey Pound",
+        "issuer": "Guernsey",
+        "item": "<img src=\"/flags/gg.svg\" width=\"16\" height=\"16\" alt=\"National flag of Guernsey\"> <strong>GGP</strong> Guernsey Pound"
+    },
+    {
+        "name": "GHS Ghana Cedi",
+        "rate": "7.96510700000000",
+        "flagImg": "/flags/gh.svg",
+        "flagAlt": "National flag of Ghana",
+        "currency": "GHS",
+        "currencyName": "Ghana Cedi",
+        "issuer": "Ghana",
+        "item": "<img src=\"/flags/gh.svg\" width=\"16\" height=\"16\" alt=\"National flag of Ghana\"> <strong>GHS</strong> Ghana Cedi"
+    },
+    {
+        "name": "GIP Gibraltar Pound",
+        "rate": "0.81370700000000",
+        "flagImg": "/flags/gi.svg",
+        "flagAlt": "National flag of Gibraltar",
+        "currency": "GIP",
+        "currencyName": "Gibraltar Pound",
+        "issuer": "Gibraltar",
+        "item": "<img src=\"/flags/gi.svg\" width=\"16\" height=\"16\" alt=\"National flag of Gibraltar\"> <strong>GIP</strong> Gibraltar Pound"
+    },
+    {
+        "name": "GMD Gambian Dalasi",
+        "rate": "54.00000000000000",
+        "flagImg": "/flags/gm.svg",
+        "flagAlt": "National flag of The Gambia",
+        "currency": "GMD",
+        "currencyName": "Gambian Dalasi",
+        "issuer": "The Gambia",
+        "item": "<img src=\"/flags/gm.svg\" width=\"16\" height=\"16\" alt=\"National flag of The Gambia\"> <strong>GMD</strong> Gambian Dalasi"
+    },
+    {
+        "name": "GNF Guinea Franc",
+        "rate": "8745.65538700000000",
+        "flagImg": "/flags/gn.svg",
+        "flagAlt": "National flag of Guinea",
+        "currency": "GNF",
+        "currencyName": "Guinea Franc",
+        "issuer": "Guinea",
+        "item": "<img src=\"/flags/gn.svg\" width=\"16\" height=\"16\" alt=\"National flag of Guinea\"> <strong>GNF</strong> Guinea Franc"
+    },
+    {
+        "name": "GTQ Guatemalan Quetzal",
+        "rate": "7.75333700000000",
+        "flagImg": "/flags/gt.svg",
+        "flagAlt": "National flag of Guatemala",
+        "currency": "GTQ",
+        "currencyName": "Guatemalan Quetzal",
+        "issuer": "Guatemala",
+        "item": "<img src=\"/flags/gt.svg\" width=\"16\" height=\"16\" alt=\"National flag of Guatemala\"> <strong>GTQ</strong> Guatemalan Quetzal"
+    },
+    {
+        "name": "GYD Guyana Dollar",
+        "rate": "209.43857800000000",
+        "flagImg": "/flags/gy.svg",
+        "flagAlt": "National flag of Guyana",
+        "currency": "GYD",
+        "currencyName": "Guyana Dollar",
+        "issuer": "Guyana",
+        "item": "<img src=\"/flags/gy.svg\" width=\"16\" height=\"16\" alt=\"National flag of Guyana\"> <strong>GYD</strong> Guyana Dollar"
+    },
+    {
+        "name": "HKD Hong Kong Dollar",
+        "rate": "7.84924500000000",
+        "flagImg": "/flags/hk.svg",
+        "flagAlt": "National flag of Hong Kong",
+        "currency": "HKD",
+        "currencyName": "Hong Kong Dollar",
+        "issuer": "Hong Kong",
+        "item": "<img src=\"/flags/hk.svg\" width=\"16\" height=\"16\" alt=\"National flag of Hong Kong\"> <strong>HKD</strong> Hong Kong Dollar"
+    },
+    {
+        "name": "HNL Honduran Lempira",
+        "rate": "24.54036100000000",
+        "flagImg": "/flags/hn.svg",
+        "flagAlt": "National flag of Honduras",
+        "currency": "HNL",
+        "currencyName": "Honduran Lempira",
+        "issuer": "Honduras",
+        "item": "<img src=\"/flags/hn.svg\" width=\"16\" height=\"16\" alt=\"National flag of Honduras\"> <strong>HNL</strong> Honduran Lempira"
+    },
+    {
+        "name": "HRK Croatian Kuna",
+        "rate": "7.14073300000000",
+        "flagImg": "/flags/hr.svg",
+        "flagAlt": "National flag of Croatia",
+        "currency": "HRK",
+        "currencyName": "Croatian Kuna",
+        "issuer": "Croatia",
+        "item": "<img src=\"/flags/hr.svg\" width=\"16\" height=\"16\" alt=\"National flag of Croatia\"> <strong>HRK</strong> Croatian Kuna"
+    },
+    {
+        "name": "HTG Haitian Gourde",
+        "rate": "115.54956900000000",
+        "flagImg": "/flags/ht.svg",
+        "flagAlt": "National flag of Haiti",
+        "currency": "HTG",
+        "currencyName": "Haitian Gourde",
+        "issuer": "Haiti",
+        "item": "<img src=\"/flags/ht.svg\" width=\"16\" height=\"16\" alt=\"National flag of Haiti\"> <strong>HTG</strong> Haitian Gourde"
+    },
+    {
+        "name": "HUF Hungarian Forint",
+        "rate": "379.41938200000000",
+        "flagImg": "/flags/hu.svg",
+        "flagAlt": "National flag of Hungary",
+        "currency": "HUF",
+        "currencyName": "Hungarian Forint",
+        "issuer": "Hungary",
+        "item": "<img src=\"/flags/hu.svg\" width=\"16\" height=\"16\" alt=\"National flag of Hungary\"> <strong>HUF</strong> Hungarian Forint"
+    },
+    {
+        "name": "IDR Indonesian Rupiah",
+        "rate": "14834.60129900000000",
+        "flagImg": "/flags/id.svg",
+        "flagAlt": "National flag of the Republic of Indonesia",
+        "currency": "IDR",
+        "currencyName": "Indonesian Rupiah",
+        "issuer": "Indonesia",
+        "item": "<img src=\"/flags/id.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Republic of Indonesia\"> <strong>IDR</strong> Indonesian Rupiah"
+    },
+    {
+        "name": "ILS Israeli Shekel",
+        "rate": "3.41043200000000",
+        "flagImg": "/flags/il.svg",
+        "flagAlt": "National flag of the State of Israel",
+        "currency": "ILS",
+        "currencyName": "Israeli Shekel",
+        "issuer": "Israel",
+        "item": "<img src=\"/flags/il.svg\" width=\"16\" height=\"16\" alt=\"National flag of the State of Israel\"> <strong>ILS</strong> Israeli Shekel"
+    },
+    {
+        "name": "IMP Isle of Man Pound",
+        "rate": "0.81370700000000",
+        "flagImg": "/flags/im.svg",
+        "flagAlt": "National flag of Isle of Man",
+        "currency": "IMP",
+        "currencyName": "Isle of Man Pound",
+        "issuer": "Isle of Man",
+        "item": "<img src=\"/flags/im.svg\" width=\"16\" height=\"16\" alt=\"National flag of Isle of Man\"> <strong>IMP</strong> Isle of Man Pound"
+    },
+    {
+        "name": "IQD Iraqi Dinar",
+        "rate": "1460.08649300000000",
+        "flagImg": "/flags/iq.svg",
+        "flagAlt": "National flag of Iraq",
+        "currency": "IQD",
+        "currencyName": "Iraqi Dinar",
+        "issuer": "Iraq",
+        "item": "<img src=\"/flags/iq.svg\" width=\"16\" height=\"16\" alt=\"National flag of Iraq\"> <strong>IQD</strong> Iraqi Dinar"
+    },
+    {
+        "name": "IRR Iranian Rial",
+        "rate": "42450.00000000000000",
+        "flagImg": "/flags/ir.svg",
+        "flagAlt": "National flag of Iran",
+        "currency": "IRR",
+        "currencyName": "Iranian Rial",
+        "issuer": "Iran",
+        "item": "<img src=\"/flags/ir.svg\" width=\"16\" height=\"16\" alt=\"National flag of Iran\"> <strong>IRR</strong> Iranian Rial"
+    },
+    {
+        "name": "ISK Iceland Krona",
+        "rate": "132.45374800000000",
+        "flagImg": "/flags/is.svg",
+        "flagAlt": "National flag of Iceland",
+        "currency": "ISK",
+        "currencyName": "Iceland Krona",
+        "issuer": "Iceland",
+        "item": "<img src=\"/flags/is.svg\" width=\"16\" height=\"16\" alt=\"National flag of Iceland\"> <strong>ISK</strong> Iceland Krona"
+    },
+    {
+        "name": "JEP Jersey Pound",
+        "rate": "0.81370700000000",
+        "flagImg": "/flags/je.svg",
+        "flagAlt": "National flag of Jersey",
+        "currency": "JEP",
+        "currencyName": "Jersey Pound",
+        "issuer": "Jersey",
+        "item": "<img src=\"/flags/je.svg\" width=\"16\" height=\"16\" alt=\"National flag of Jersey\"> <strong>JEP</strong> Jersey Pound"
+    },
+    {
+        "name": "JMD Jamaican Dollar",
+        "rate": "151.24460900000000",
+        "flagImg": "/flags/jm.svg",
+        "flagAlt": "National flag of Jamaica",
+        "currency": "JMD",
+        "currencyName": "Jamaican Dollar",
+        "issuer": "Jamaica",
+        "item": "<img src=\"/flags/jm.svg\" width=\"16\" height=\"16\" alt=\"National flag of Jamaica\"> <strong>JMD</strong> Jamaican Dollar"
+    },
+    {
+        "name": "JOD Jordanian Dinar",
+        "rate": "0.70900000000000",
+        "flagImg": "/flags/jo.svg",
+        "flagAlt": "National flag of Jordan",
+        "currency": "JOD",
+        "currencyName": "Jordanian Dinar",
+        "issuer": "Jordan",
+        "item": "<img src=\"/flags/jo.svg\" width=\"16\" height=\"16\" alt=\"National flag of Jordan\"> <strong>JOD</strong> Jordanian Dinar"
+    },
+    {
+        "name": "JPY Japanese Yen",
+        "rate": "135.10150000000000",
+        "flagImg": "/flags/jp.svg",
+        "flagAlt": "National flag of Japan",
+        "currency": "JPY",
+        "currencyName": "Japanese Yen",
+        "issuer": "Japan",
+        "item": "<img src=\"/flags/jp.svg\" width=\"16\" height=\"16\" alt=\"National flag of Japan\"> <strong>JPY</strong> Japanese Yen"
+    },
+    {
+        "name": "KES Kenyan Shilling",
+        "rate": "117.78120600000000",
+        "flagImg": "/flags/ke.svg",
+        "flagAlt": "National flag of Kenya",
+        "currency": "KES",
+        "currencyName": "Kenyan Shilling",
+        "issuer": "Kenya",
+        "item": "<img src=\"/flags/ke.svg\" width=\"16\" height=\"16\" alt=\"National flag of Kenya\"> <strong>KES</strong> Kenyan Shilling"
+    },
+    {
+        "name": "KGS Kyrgyzstani Som",
+        "rate": "79.50070200000000",
+        "flagImg": "/flags/kg.svg",
+        "flagAlt": "National flag of Kyrgyzstan",
+        "currency": "KGS",
+        "currencyName": "Kyrgyzstani Som",
+        "issuer": "Kyrgyzstan",
+        "item": "<img src=\"/flags/kg.svg\" width=\"16\" height=\"16\" alt=\"National flag of Kyrgyzstan\"> <strong>KGS</strong> Kyrgyzstani Som"
+    },
+    {
+        "name": "KHR Cambodian Riel",
+        "rate": "4067.29174600000000",
+        "flagImg": "/flags/kh.svg",
+        "flagAlt": "National flag of Cambodia",
+        "currency": "KHR",
+        "currencyName": "Cambodian Riel",
+        "issuer": "Cambodia",
+        "item": "<img src=\"/flags/kh.svg\" width=\"16\" height=\"16\" alt=\"National flag of Cambodia\"> <strong>KHR</strong> Cambodian Riel"
+    },
+    {
+        "name": "KMF Comoro Franc",
+        "rate": "466.85028600000000",
+        "flagImg": "/flags/km.svg",
+        "flagAlt": "National flag of The Comoros",
+        "currency": "KMF",
+        "currencyName": "Comoro Franc",
+        "issuer": "The Comoros",
+        "item": "<img src=\"/flags/km.svg\" width=\"16\" height=\"16\" alt=\"National flag of The Comoros\"> <strong>KMF</strong> Comoro Franc"
+    },
+    {
+        "name": "KPW North Korean Won",
+        "rate": "900.00000000000000",
+        "flagImg": "/flags/kp.svg",
+        "flagAlt": "National flag of North Korea",
+        "currency": "KPW",
+        "currencyName": "North Korean Won",
+        "issuer": "North Korea",
+        "item": "<img src=\"/flags/kp.svg\" width=\"16\" height=\"16\" alt=\"National flag of North Korea\"> <strong>KPW</strong> North Korean Won"
+    },
+    {
+        "name": "KRW South Korean Won",
+        "rate": "1289.24815300000000",
+        "flagImg": "/flags/kr.svg",
+        "flagAlt": "National flag of South Korea",
+        "currency": "KRW",
+        "currencyName": "South Korean Won",
+        "issuer": "South Korea",
+        "item": "<img src=\"/flags/kr.svg\" width=\"16\" height=\"16\" alt=\"National flag of South Korea\"> <strong>KRW</strong> South Korean Won"
+    },
+    {
+        "name": "KWD Kuwaiti Dinar",
+        "rate": "0.30649300000000",
+        "flagImg": "/flags/kw.svg",
+        "flagAlt": "National flag of Kuwait",
+        "currency": "KWD",
+        "currencyName": "Kuwaiti Dinar",
+        "issuer": "Kuwait",
+        "item": "<img src=\"/flags/kw.svg\" width=\"16\" height=\"16\" alt=\"National flag of Kuwait\"> <strong>KWD</strong> Kuwaiti Dinar"
+    },
+    {
+        "name": "KYD Cayman Islands Dollar",
+        "rate": "0.83372900000000",
+        "flagImg": "/flags/ky.svg",
+        "flagAlt": "National flag of The Cayman Islands",
+        "currency": "KYD",
+        "currencyName": "Cayman Islands Dollar",
+        "issuer": "The Cayman Islands",
+        "item": "<img src=\"/flags/ky.svg\" width=\"16\" height=\"16\" alt=\"National flag of The Cayman Islands\"> <strong>KYD</strong> Cayman Islands Dollar"
+    },
+    {
+        "name": "KZT Kazakhstani Tenge",
+        "rate": "467.46290700000000",
+        "flagImg": "/flags/kz.svg",
+        "flagAlt": "National flag of Kazakhstan",
+        "currency": "KZT",
+        "currencyName": "Kazakhstani Tenge",
+        "issuer": "Kazakhstan",
+        "item": "<img src=\"/flags/kz.svg\" width=\"16\" height=\"16\" alt=\"National flag of Kazakhstan\"> <strong>KZT</strong> Kazakhstani Tenge"
+    },
+    {
+        "name": "LAK Lao Kip",
+        "rate": "14963.88062600000000",
+        "flagImg": "/flags/la.svg",
+        "flagAlt": "National flag of Laos",
+        "currency": "LAK",
+        "currencyName": "Lao Kip",
+        "issuer": "Laos",
+        "item": "<img src=\"/flags/la.svg\" width=\"16\" height=\"16\" alt=\"National flag of Laos\"> <strong>LAK</strong> Lao Kip"
+    },
+    {
+        "name": "LBP Lebanese Pound",
+        "rate": "1521.56923100000000",
+        "flagImg": "/flags/lb.svg",
+        "flagAlt": "National flag of Lebanon",
+        "currency": "LBP",
+        "currencyName": "Lebanese Pound",
+        "issuer": "Lebanon",
+        "item": "<img src=\"/flags/lb.svg\" width=\"16\" height=\"16\" alt=\"National flag of Lebanon\"> <strong>LBP</strong> Lebanese Pound"
+    },
+    {
+        "name": "LD Linden Dollar",
+        "rate": "320.00000000000000",
+        "flagImg": "/flags/xx.svg",
+        "flagAlt": "Second Life",
+        "currency": "LD",
+        "currencyName": "Linden Dollar",
+        "issuer": "Second Life",
+        "item": "<img src=\"/flags/xx.svg\" width=\"16\" height=\"16\" alt=\"Second Life\"> <strong>LD</strong> Linden Dollar"
+    },
+    {
+        "name": "LKR Sri Lanka Rupee",
+        "rate": "360.15375900000000",
+        "flagImg": "/flags/lk.svg",
+        "flagAlt": "National flag of Sri Lanka",
+        "currency": "LKR",
+        "currencyName": "Sri Lanka Rupee",
+        "issuer": "Sri Lanka",
+        "item": "<img src=\"/flags/lk.svg\" width=\"16\" height=\"16\" alt=\"National flag of Sri Lanka\"> <strong>LKR</strong> Sri Lanka Rupee"
+    },
+    {
+        "name": "LRD Liberian Dollar",
+        "rate": "151.99996000000000",
+        "flagImg": "/flags/lr.svg",
+        "flagAlt": "National flag of Liberia",
+        "currency": "LRD",
+        "currencyName": "Liberian Dollar",
+        "issuer": "Liberia",
+        "item": "<img src=\"/flags/lr.svg\" width=\"16\" height=\"16\" alt=\"National flag of Liberia\"> <strong>LRD</strong> Liberian Dollar"
+    },
+    {
+        "name": "LSL Lesotho Loti",
+        "rate": "15.87404800000000",
+        "flagImg": "/flags/ls.svg",
+        "flagAlt": "National flag of Lesotho",
+        "currency": "LSL",
+        "currencyName": "Lesotho Loti",
+        "issuer": "Lesotho",
+        "item": "<img src=\"/flags/ls.svg\" width=\"16\" height=\"16\" alt=\"National flag of Lesotho\"> <strong>LSL</strong> Lesotho Loti"
+    },
+    {
+        "name": "LTC Litecoin",
+        "rate": "0.01749041650000",
+        "flagImg": "/flags/ltc.svg",
+        "flagAlt": "Litecoin",
+        "currency": "LTC",
+        "currencyName": "Litecoin",
+        "issuer": "Cryptocurrency",
+        "item": "<img src=\"/flags/ltc.svg\" width=\"16\" height=\"16\" alt=\"Litecoin\"> <strong>LTC</strong> Litecoin"
+    },
+    {
+        "name": "LYD Libyan Dinar",
+        "rate": "4.81621900000000",
+        "flagImg": "/flags/ly.svg",
+        "flagAlt": "National flag of Libya",
+        "currency": "LYD",
+        "currencyName": "Libyan Dinar",
+        "issuer": "Libya",
+        "item": "<img src=\"/flags/ly.svg\" width=\"16\" height=\"16\" alt=\"National flag of Libya\"> <strong>LYD</strong> Libyan Dinar"
+    },
+    {
+        "name": "MAD Moroccan Dirham",
+        "rate": "10.02566200000000",
+        "flagImg": "/flags/ma.svg",
+        "flagAlt": "National flag of Morocco",
+        "currency": "MAD",
+        "currencyName": "Moroccan Dirham",
+        "issuer": "Morocco",
+        "item": "<img src=\"/flags/ma.svg\" width=\"16\" height=\"16\" alt=\"National flag of Morocco\"> <strong>MAD</strong> Moroccan Dirham"
+    },
+    {
+        "name": "MDL Moldovan Leu",
+        "rate": "19.21740600000000",
+        "flagImg": "/flags/md.svg",
+        "flagAlt": "National flag of Moldova",
+        "currency": "MDL",
+        "currencyName": "Moldovan Leu",
+        "issuer": "Moldova",
+        "item": "<img src=\"/flags/md.svg\" width=\"16\" height=\"16\" alt=\"National flag of Moldova\"> <strong>MDL</strong> Moldovan Leu"
+    },
+    {
+        "name": "MGA Malagasy Ariary",
+        "rate": "4070.07190000000000",
+        "flagImg": "/flags/mg.svg",
+        "flagAlt": "National flag of Madagascar",
+        "currency": "MGA",
+        "currencyName": "Malagasy Ariary",
+        "issuer": "Madagascar",
+        "item": "<img src=\"/flags/mg.svg\" width=\"16\" height=\"16\" alt=\"National flag of Madagascar\"> <strong>MGA</strong> Malagasy Ariary"
+    },
+    {
+        "name": "MKD Macedonian Denar",
+        "rate": "58.33926600000000",
+        "flagImg": "/flags/mk.svg",
+        "flagAlt": "National flag of Macedonia",
+        "currency": "MKD",
+        "currencyName": "Macedonian Denar",
+        "issuer": "Macedonia",
+        "item": "<img src=\"/flags/mk.svg\" width=\"16\" height=\"16\" alt=\"National flag of Macedonia\"> <strong>MKD</strong> Macedonian Denar"
+    },
+    {
+        "name": "MMK Myanmar Kyat",
+        "rate": "1852.29213900000000",
+        "flagImg": "/flags/mm.svg",
+        "flagAlt": "National flag of Myanmar",
+        "currency": "MMK",
+        "currencyName": "Myanmar Kyat",
+        "issuer": "Myanmar",
+        "item": "<img src=\"/flags/mm.svg\" width=\"16\" height=\"16\" alt=\"National flag of Myanmar\"> <strong>MMK</strong> Myanmar Kyat"
+    },
+    {
+        "name": "MNT Mongolian Tugrik",
+        "rate": "3127.23880000000000",
+        "flagImg": "/flags/mn.svg",
+        "flagAlt": "National flag of Mongolia",
+        "currency": "MNT",
+        "currencyName": "Mongolian Tugrik",
+        "issuer": "Mongolia",
+        "item": "<img src=\"/flags/mn.svg\" width=\"16\" height=\"16\" alt=\"National flag of Mongolia\"> <strong>MNT</strong> Mongolian Tugrik"
+    },
+    {
+        "name": "MOP Macanese Pataca",
+        "rate": "8.08865100000000",
+        "flagImg": "/flags/mo.svg",
+        "flagAlt": "National flag of Macao",
+        "currency": "MOP",
+        "currencyName": "Macanese Pataca",
+        "issuer": "Macao",
+        "item": "<img src=\"/flags/mo.svg\" width=\"16\" height=\"16\" alt=\"National flag of Macao\"> <strong>MOP</strong> Macanese Pataca"
+    },
+    {
+        "name": "MRU Mauritanian Ouguiya",
+        "rate": "36.42551800000000",
+        "flagImg": "/flags/mr.svg",
+        "flagAlt": "National flag of Mauritania",
+        "currency": "MRU",
+        "currencyName": "Mauritanian Ouguiya",
+        "issuer": "Mauritania",
+        "item": "<img src=\"/flags/mr.svg\" width=\"16\" height=\"16\" alt=\"National flag of Mauritania\"> <strong>MRU</strong> Mauritanian Ouguiya"
+    },
+    {
+        "name": "MUR Mauritius Rupee",
+        "rate": "44.95194800000000",
+        "flagImg": "/flags/mu.svg",
+        "flagAlt": "National flag of Mauritius",
+        "currency": "MUR",
+        "currencyName": "Mauritius Rupee",
+        "issuer": "Mauritius",
+        "item": "<img src=\"/flags/mu.svg\" width=\"16\" height=\"16\" alt=\"National flag of Mauritius\"> <strong>MUR</strong> Mauritius Rupee"
+    },
+    {
+        "name": "MVR Maldivian Rufiyaa",
+        "rate": "15.35000000000000",
+        "flagImg": "/flags/mv.svg",
+        "flagAlt": "National flag of Maldives",
+        "currency": "MVR",
+        "currencyName": "Maldivian Rufiyaa",
+        "issuer": "Maldives",
+        "item": "<img src=\"/flags/mv.svg\" width=\"16\" height=\"16\" alt=\"National flag of Maldives\"> <strong>MVR</strong> Maldivian Rufiyaa"
+    },
+    {
+        "name": "MWK Malawian Kwacha",
+        "rate": "1021.02686000000000",
+        "flagImg": "/flags/mw.svg",
+        "flagAlt": "National flag of Malawi",
+        "currency": "MWK",
+        "currencyName": "Malawian Kwacha",
+        "issuer": "Malawi",
+        "item": "<img src=\"/flags/mw.svg\" width=\"16\" height=\"16\" alt=\"National flag of Malawi\"> <strong>MWK</strong> Malawian Kwacha"
+    },
+    {
+        "name": "MXN Mexican Peso",
+        "rate": "19.87514800000000",
+        "flagImg": "/flags/mx.svg",
+        "flagAlt": "National flag of the United Mexican States",
+        "currency": "MXN",
+        "currencyName": "Mexican Peso",
+        "issuer": "Mexico",
+        "item": "<img src=\"/flags/mx.svg\" width=\"16\" height=\"16\" alt=\"National flag of the United Mexican States\"> <strong>MXN</strong> Mexican Peso"
+    },
+    {
+        "name": "MYR Malaysian Ringgit",
+        "rate": "4.40200000000000",
+        "flagImg": "/flags/my.svg",
+        "flagAlt": "National flag of Malaysia",
+        "currency": "MYR",
+        "currencyName": "Malaysian Ringgit",
+        "issuer": "Malaysia",
+        "item": "<img src=\"/flags/my.svg\" width=\"16\" height=\"16\" alt=\"National flag of Malaysia\"> <strong>MYR</strong> Malaysian Ringgit"
+    },
+    {
+        "name": "MZN Mozambique Metical",
+        "rate": "63.88499600000000",
+        "flagImg": "/flags/mz.svg",
+        "flagAlt": "National flag of Mozambique",
+        "currency": "MZN",
+        "currencyName": "Mozambique Metical",
+        "issuer": "Mozambique",
+        "item": "<img src=\"/flags/mz.svg\" width=\"16\" height=\"16\" alt=\"National flag of Mozambique\"> <strong>MZN</strong> Mozambique Metical"
+    },
+    {
+        "name": "NAD Namibia Dollar",
+        "rate": "15.82000000000000",
+        "flagImg": "/flags/na.svg",
+        "flagAlt": "National flag of Namibia",
+        "currency": "NAD",
+        "currencyName": "Namibia Dollar",
+        "issuer": "Namibia",
+        "item": "<img src=\"/flags/na.svg\" width=\"16\" height=\"16\" alt=\"National flag of Namibia\"> <strong>NAD</strong> Namibia Dollar"
+    },
+    {
+        "name": "NGN Nigerian Naira",
+        "rate": "417.95811000000000",
+        "flagImg": "/flags/ng.svg",
+        "flagAlt": "National flag of the Federal Republic of Nigeria",
+        "currency": "NGN",
+        "currencyName": "Nigerian Naira",
+        "issuer": "Nigeria",
+        "item": "<img src=\"/flags/ng.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Federal Republic of Nigeria\"> <strong>NGN</strong> Nigerian Naira"
+    },
+    {
+        "name": "NIO Cordoba Oro",
+        "rate": "35.86239600000000",
+        "flagImg": "/flags/ni.svg",
+        "flagAlt": "National flag of Nicaragua",
+        "currency": "NIO",
+        "currencyName": "Cordoba Oro",
+        "issuer": "Nicaragua",
+        "item": "<img src=\"/flags/ni.svg\" width=\"16\" height=\"16\" alt=\"National flag of Nicaragua\"> <strong>NIO</strong> Cordoba Oro"
+    },
+    {
+        "name": "NOK Norwegian Krone",
+        "rate": "9.84040900000000",
+        "flagImg": "/flags/no.svg",
+        "flagAlt": "National flag of the Kingdom of Norway",
+        "currency": "NOK",
+        "currencyName": "Norwegian Krone",
+        "issuer": "Norway",
+        "item": "<img src=\"/flags/no.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Kingdom of Norway\"> <strong>NOK</strong> Norwegian Krone"
+    },
+    {
+        "name": "NPR Nepalese Rupee",
+        "rate": "125.25395800000000",
+        "flagImg": "/flags/np.svg",
+        "flagAlt": "National flag of Nepal",
+        "currency": "NPR",
+        "currencyName": "Nepalese Rupee",
+        "issuer": "Nepal",
+        "item": "<img src=\"/flags/np.svg\" width=\"16\" height=\"16\" alt=\"National flag of Nepal\"> <strong>NPR</strong> Nepalese Rupee"
+    },
+    {
+        "name": "NXT Nextcoin",
+        "rate": "296.88483125000000",
+        "flagImg": "/flags/nxt.svg",
+        "flagAlt": "Nextcoin",
+        "currency": "NXT",
+        "currencyName": "Nextcoin",
+        "issuer": "Cryptocurrency",
+        "item": "<img src=\"/flags/nxt.svg\" width=\"16\" height=\"16\" alt=\"Nextcoin\"> <strong>NXT</strong> Nextcoin"
+    },
+    {
+        "name": "NZD New Zealand Dollar",
+        "rate": "1.58165700000000",
+        "flagImg": "/flags/nz.svg",
+        "flagAlt": "National flag of New Zealand",
+        "currency": "NZD",
+        "currencyName": "New Zealand Dollar",
+        "issuer": "New Zealand",
+        "item": "<img src=\"/flags/nz.svg\" width=\"16\" height=\"16\" alt=\"National flag of New Zealand\"> <strong>NZD</strong> New Zealand Dollar"
+    },
+    {
+        "name": "OMR Rial Omani",
+        "rate": "0.38505900000000",
+        "flagImg": "/flags/om.svg",
+        "flagAlt": "National flag of Oman",
+        "currency": "OMR",
+        "currencyName": "Rial Omani",
+        "issuer": "Oman",
+        "item": "<img src=\"/flags/om.svg\" width=\"16\" height=\"16\" alt=\"National flag of Oman\"> <strong>OMR</strong> Rial Omani"
+    },
+    {
+        "name": "PAB Panamanian Balboa",
+        "rate": "1.00000000000000",
+        "flagImg": "/flags/pa.svg",
+        "flagAlt": "National flag of Panama",
+        "currency": "PAB",
+        "currencyName": "Panamanian Balboa",
+        "issuer": "Panama",
+        "item": "<img src=\"/flags/pa.svg\" width=\"16\" height=\"16\" alt=\"National flag of Panama\"> <strong>PAB</strong> Panamanian Balboa"
+    },
+    {
+        "name": "PEN Peruvian Sol",
+        "rate": "3.77347000000000",
+        "flagImg": "/flags/pe.svg",
+        "flagAlt": "National flag of Peru",
+        "currency": "PEN",
+        "currencyName": "Peruvian Sol",
+        "issuer": "Peru",
+        "item": "<img src=\"/flags/pe.svg\" width=\"16\" height=\"16\" alt=\"National flag of Peru\"> <strong>PEN</strong> Peruvian Sol"
+    },
+    {
+        "name": "PGK Papua New Guinean Kina",
+        "rate": "3.55329200000000",
+        "flagImg": "/flags/pg.svg",
+        "flagAlt": "National flag of Papua New Guinea",
+        "currency": "PGK",
+        "currencyName": "Papua New Guinean Kina",
+        "issuer": "Papua New Guinea",
+        "item": "<img src=\"/flags/pg.svg\" width=\"16\" height=\"16\" alt=\"National flag of Papua New Guinea\"> <strong>PGK</strong> Papua New Guinean Kina"
+    },
+    {
+        "name": "PHP Philippine Peso",
+        "rate": "54.89849900000000",
+        "flagImg": "/flags/ph.svg",
+        "flagAlt": "National flag of the Republic of the Philippines",
+        "currency": "PHP",
+        "currencyName": "Philippine Peso",
+        "issuer": "Philippines",
+        "item": "<img src=\"/flags/ph.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Republic of the Philippines\"> <strong>PHP</strong> Philippine Peso"
+    },
+    {
+        "name": "PKR Pakistani Rupee",
+        "rate": "207.91313300000000",
+        "flagImg": "/flags/pk.svg",
+        "flagAlt": "National flag of the Islamic Republic of Pakistan",
+        "currency": "PKR",
+        "currencyName": "Pakistani Rupee",
+        "issuer": "Pakistan",
+        "item": "<img src=\"/flags/pk.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Islamic Republic of Pakistan\"> <strong>PKR</strong> Pakistani Rupee"
+    },
+    {
+        "name": "PLN Polish Zloty",
+        "rate": "4.44357500000000",
+        "flagImg": "/flags/pl.svg",
+        "flagAlt": "National flag of Poland",
+        "currency": "PLN",
+        "currencyName": "Polish Zloty",
+        "issuer": "Poland",
+        "item": "<img src=\"/flags/pl.svg\" width=\"16\" height=\"16\" alt=\"National flag of Poland\"> <strong>PLN</strong> Polish Zloty"
+    },
+    {
+        "name": "PYG Paraguayan Guarani",
+        "rate": "6880.71363300000000",
+        "flagImg": "/flags/py.svg",
+        "flagAlt": "National flag of Paraguay",
+        "currency": "PYG",
+        "currencyName": "Paraguayan Guarani",
+        "issuer": "Paraguay",
+        "item": "<img src=\"/flags/py.svg\" width=\"16\" height=\"16\" alt=\"National flag of Paraguay\"> <strong>PYG</strong> Paraguayan Guarani"
+    },
+    {
+        "name": "QAR Qatari Rial",
+        "rate": "3.64378900000000",
+        "flagImg": "/flags/qa.svg",
+        "flagAlt": "National flag of Qatar",
+        "currency": "QAR",
+        "currencyName": "Qatari Rial",
+        "issuer": "Qatar",
+        "item": "<img src=\"/flags/qa.svg\" width=\"16\" height=\"16\" alt=\"National flag of Qatar\"> <strong>QAR</strong> Qatari Rial"
+    },
+    {
+        "name": "RON Romanian Leu",
+        "rate": "4.68806900000000",
+        "flagImg": "/flags/ro.svg",
+        "flagAlt": "National flag of Romania",
+        "currency": "RON",
+        "currencyName": "Romanian Leu",
+        "issuer": "Romania",
+        "item": "<img src=\"/flags/ro.svg\" width=\"16\" height=\"16\" alt=\"National flag of Romania\"> <strong>RON</strong> Romanian Leu"
+    },
+    {
+        "name": "RSD Serbian Dinar",
+        "rate": "111.27042200000000",
+        "flagImg": "/flags/rs.svg",
+        "flagAlt": "National flag of Serbia",
+        "currency": "RSD",
+        "currencyName": "Serbian Dinar",
+        "issuer": "Serbia",
+        "item": "<img src=\"/flags/rs.svg\" width=\"16\" height=\"16\" alt=\"National flag of Serbia\"> <strong>RSD</strong> Serbian Dinar"
+    },
+    {
+        "name": "RUB Russian Ruble",
+        "rate": "54.19990200000000",
+        "flagImg": "/flags/ru.svg",
+        "flagAlt": "National flag of the Russian Federation",
+        "currency": "RUB",
+        "currencyName": "Russian Ruble",
+        "issuer": "Russia",
+        "item": "<img src=\"/flags/ru.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Russian Federation\"> <strong>RUB</strong> Russian Ruble"
+    },
+    {
+        "name": "RWF Rwanda Franc",
+        "rate": "1025.18375700000000",
+        "flagImg": "/flags/rw.svg",
+        "flagAlt": "National flag of Rwanda",
+        "currency": "RWF",
+        "currencyName": "Rwanda Franc",
+        "issuer": "Rwanda",
+        "item": "<img src=\"/flags/rw.svg\" width=\"16\" height=\"16\" alt=\"National flag of Rwanda\"> <strong>RWF</strong> Rwanda Franc"
+    },
+    {
+        "name": "SAR Saudi Riyal",
+        "rate": "3.75294600000000",
+        "flagImg": "/flags/sa.svg",
+        "flagAlt": "National flag of Saudi Arabia",
+        "currency": "SAR",
+        "currencyName": "Saudi Riyal",
+        "issuer": "Saudi Arabia",
+        "item": "<img src=\"/flags/sa.svg\" width=\"16\" height=\"16\" alt=\"National flag of Saudi Arabia\"> <strong>SAR</strong> Saudi Riyal"
+    },
+    {
+        "name": "SBD Solomon Islands Dollar",
+        "rate": "8.15331600000000",
+        "flagImg": "/flags/sb.svg",
+        "flagAlt": "National flag of Solomon Islands",
+        "currency": "SBD",
+        "currencyName": "Solomon Islands Dollar",
+        "issuer": "Solomon Islands",
+        "item": "<img src=\"/flags/sb.svg\" width=\"16\" height=\"16\" alt=\"National flag of Solomon Islands\"> <strong>SBD</strong> Solomon Islands Dollar"
+    },
+    {
+        "name": "SCR Seychelles Rupee",
+        "rate": "13.06419800000000",
+        "flagImg": "/flags/sc.svg",
+        "flagAlt": "National flag of Seychelles",
+        "currency": "SCR",
+        "currencyName": "Seychelles Rupee",
+        "issuer": "Seychelles",
+        "item": "<img src=\"/flags/sc.svg\" width=\"16\" height=\"16\" alt=\"National flag of Seychelles\"> <strong>SCR</strong> Seychelles Rupee"
+    },
+    {
+        "name": "SDG Sudanese Pound",
+        "rate": "457.50000000000000",
+        "flagImg": "/flags/sd.svg",
+        "flagAlt": "National flag of The Sudan",
+        "currency": "SDG",
+        "currencyName": "Sudanese Pound",
+        "issuer": "The Sudan",
+        "item": "<img src=\"/flags/sd.svg\" width=\"16\" height=\"16\" alt=\"National flag of The Sudan\"> <strong>SDG</strong> Sudanese Pound"
+    },
+    {
+        "name": "SEK Swedish Krona",
+        "rate": "10.11785300000000",
+        "flagImg": "/flags/se.svg",
+        "flagAlt": "National flag of the Kingdom of Sweden",
+        "currency": "SEK",
+        "currencyName": "Swedish Krona",
+        "issuer": "Sweden",
+        "item": "<img src=\"/flags/se.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Kingdom of Sweden\"> <strong>SEK</strong> Swedish Krona"
+    },
+    {
+        "name": "SGD Singapore Dollar",
+        "rate": "1.38583500000000",
+        "flagImg": "/flags/sg.svg",
+        "flagAlt": "National flag of Singapore",
+        "currency": "SGD",
+        "currencyName": "Singapore Dollar",
+        "issuer": "Singapore",
+        "item": "<img src=\"/flags/sg.svg\" width=\"16\" height=\"16\" alt=\"National flag of Singapore\"> <strong>SGD</strong> Singapore Dollar"
+    },
+    {
+        "name": "SHP Saint Helena Pound",
+        "rate": "0.81370700000000",
+        "flagImg": "/flags/sh.svg",
+        "flagAlt": "National flag of Saint Helena, Ascension And Tristan Da Cunha",
+        "currency": "SHP",
+        "currencyName": "Saint Helena Pound",
+        "issuer": "Saint Helena, Ascension And Tristan Da Cunha",
+        "item": "<img src=\"/flags/sh.svg\" width=\"16\" height=\"16\" alt=\"National flag of Saint Helena, Ascension And Tristan Da Cunha\"> <strong>SHP</strong> Saint Helena Pound"
+    },
+    {
+        "name": "SLL Sierra Leonean Leone",
+        "rate": "13150.40000000000000",
+        "flagImg": "/flags/sl.svg",
+        "flagAlt": "National flag of Sierra Leone",
+        "currency": "SLL",
+        "currencyName": "Sierra Leonean Leone",
+        "issuer": "Sierra Leone",
+        "item": "<img src=\"/flags/sl.svg\" width=\"16\" height=\"16\" alt=\"National flag of Sierra Leone\"> <strong>SLL</strong> Sierra Leonean Leone"
+    },
+    {
+        "name": "SOS Somali Shilling",
+        "rate": "581.04287300000000",
+        "flagImg": "/flags/so.svg",
+        "flagAlt": "National flag of Somalia",
+        "currency": "SOS",
+        "currencyName": "Somali Shilling",
+        "issuer": "Somalia",
+        "item": "<img src=\"/flags/so.svg\" width=\"16\" height=\"16\" alt=\"National flag of Somalia\"> <strong>SOS</strong> Somali Shilling"
+    },
+    {
+        "name": "SRD Surinam Dollar",
+        "rate": "21.98800000000000",
+        "flagImg": "/flags/sr.svg",
+        "flagAlt": "National flag of Suriname",
+        "currency": "SRD",
+        "currencyName": "Surinam Dollar",
+        "issuer": "Suriname",
+        "item": "<img src=\"/flags/sr.svg\" width=\"16\" height=\"16\" alt=\"National flag of Suriname\"> <strong>SRD</strong> Surinam Dollar"
+    },
+    {
+        "name": "SSP South Sudanese Pound",
+        "rate": "130.26000000000000",
+        "flagImg": "/flags/ss.svg",
+        "flagAlt": "National flag of Republic of South Sudan",
+        "currency": "SSP",
+        "currencyName": "South Sudanese Pound",
+        "issuer": "Republic of South Sudan",
+        "item": "<img src=\"/flags/ss.svg\" width=\"16\" height=\"16\" alt=\"National flag of Republic of South Sudan\"> <strong>SSP</strong> South Sudanese Pound"
+    },
+    {
+        "name": "STD Sao Tomean Dobra",
+        "rate": "21980.49050400000000",
+        "flagImg": "/flags/st.svg",
+        "flagAlt": "National flag of Sao Tome And Principe",
+        "currency": "STD",
+        "currencyName": "Sao Tomean Dobra",
+        "issuer": "Sao Tome And Principe",
+        "item": "<img src=\"/flags/st.svg\" width=\"16\" height=\"16\" alt=\"National flag of Sao Tome And Principe\"> <strong>STD</strong> Sao Tomean Dobra"
+    },
+    {
+        "name": "STN Sao Tomean and Principe Dobra",
+        "rate": "23.45000000000000",
+        "flagImg": "/flags/st.svg",
+        "flagAlt": "National flag of Sao Tome and Principe",
+        "currency": "STN",
+        "currencyName": "Sao Tomean and Principe Dobra",
+        "issuer": "Sao Tome and Principe",
+        "item": "<img src=\"/flags/st.svg\" width=\"16\" height=\"16\" alt=\"National flag of Sao Tome and Principe\"> <strong>STN</strong> Sao Tomean and Principe Dobra"
+    },
+    {
+        "name": "STR Stellar",
+        "rate": "8.26114313040000",
+        "flagImg": "/flags/str.svg",
+        "flagAlt": "Stellar",
+        "currency": "STR",
+        "currencyName": "Stellar",
+        "issuer": "Cryptocurrency",
+        "item": "<img src=\"/flags/str.svg\" width=\"16\" height=\"16\" alt=\"Stellar\"> <strong>STR</strong> Stellar"
+    },
+    {
+        "name": "SVC El Salvador Colon",
+        "rate": "8.75405900000000",
+        "flagImg": "/flags/sv.svg",
+        "flagAlt": "National flag of El Salvador",
+        "currency": "SVC",
+        "currencyName": "El Salvador Colon",
+        "issuer": "El Salvador",
+        "item": "<img src=\"/flags/sv.svg\" width=\"16\" height=\"16\" alt=\"National flag of El Salvador\"> <strong>SVC</strong> El Salvador Colon"
+    },
+    {
+        "name": "SYP Syrian Pound",
+        "rate": "2512.53000000000000",
+        "flagImg": "/flags/sy.svg",
+        "flagAlt": "National flag of Syrian Arab Republic",
+        "currency": "SYP",
+        "currencyName": "Syrian Pound",
+        "issuer": "Syrian Arab Republic",
+        "item": "<img src=\"/flags/sy.svg\" width=\"16\" height=\"16\" alt=\"National flag of Syrian Arab Republic\"> <strong>SYP</strong> Syrian Pound"
+    },
+    {
+        "name": "SZL Swazi Lilangeni",
+        "rate": "15.88777500000000",
+        "flagImg": "/flags/sz.svg",
+        "flagAlt": "National flag of Swaziland",
+        "currency": "SZL",
+        "currencyName": "Swazi Lilangeni",
+        "issuer": "Swaziland",
+        "item": "<img src=\"/flags/sz.svg\" width=\"16\" height=\"16\" alt=\"National flag of Swaziland\"> <strong>SZL</strong> Swazi Lilangeni"
+    },
+    {
+        "name": "THB Thai Baht",
+        "rate": "35.39784500000000",
+        "flagImg": "/flags/th.svg",
+        "flagAlt": "National flag of the Kingdom of Thailand",
+        "currency": "THB",
+        "currencyName": "Thai Baht",
+        "issuer": "Thailand",
+        "item": "<img src=\"/flags/th.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Kingdom of Thailand\"> <strong>THB</strong> Thai Baht"
+    },
+    {
+        "name": "TJS Tajikistani Somoni",
+        "rate": "10.92087300000000",
+        "flagImg": "/flags/tj.svg",
+        "flagAlt": "National flag of Tajikistan",
+        "currency": "TJS",
+        "currencyName": "Tajikistani Somoni",
+        "issuer": "Tajikistan",
+        "item": "<img src=\"/flags/tj.svg\" width=\"16\" height=\"16\" alt=\"National flag of Tajikistan\"> <strong>TJS</strong> Tajikistani Somoni"
+    },
+    {
+        "name": "TMT Turkmenistan New Manat",
+        "rate": "3.50000000000000",
+        "flagImg": "/flags/tm.svg",
+        "flagAlt": "National flag of Turkmenistan",
+        "currency": "TMT",
+        "currencyName": "Turkmenistan New Manat",
+        "issuer": "Turkmenistan",
+        "item": "<img src=\"/flags/tm.svg\" width=\"16\" height=\"16\" alt=\"National flag of Turkmenistan\"> <strong>TMT</strong> Turkmenistan New Manat"
+    },
+    {
+        "name": "TND Tunisian Dinar",
+        "rate": "3.09750000000000",
+        "flagImg": "/flags/tn.svg",
+        "flagAlt": "National flag of Tunisia",
+        "currency": "TND",
+        "currencyName": "Tunisian Dinar",
+        "issuer": "Tunisia",
+        "item": "<img src=\"/flags/tn.svg\" width=\"16\" height=\"16\" alt=\"National flag of Tunisia\"> <strong>TND</strong> Tunisian Dinar"
+    },
+    {
+        "name": "TOP Tongan Pa?anga",
+        "rate": "2.34401300000000",
+        "flagImg": "/flags/to.svg",
+        "flagAlt": "National flag of Tonga",
+        "currency": "TOP",
+        "currencyName": "Tongan Pa?anga",
+        "issuer": "Tonga",
+        "item": "<img src=\"/flags/to.svg\" width=\"16\" height=\"16\" alt=\"National flag of Tonga\"> <strong>TOP</strong> Tongan Pa?anga"
+    },
+    {
+        "name": "TRY Turkish Lira",
+        "rate": "16.78552500000000",
+        "flagImg": "/flags/tr.svg",
+        "flagAlt": "National flag of the Republic of Turkey",
+        "currency": "TRY",
+        "currencyName": "Turkish Lira",
+        "issuer": "Turkey",
+        "item": "<img src=\"/flags/tr.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Republic of Turkey\"> <strong>TRY</strong> Turkish Lira"
+    },
+    {
+        "name": "TTD Trinidad and Tobago Dollar",
+        "rate": "6.79941900000000",
+        "flagImg": "/flags/tt.svg",
+        "flagAlt": "National flag of Trinidad And Tobago",
+        "currency": "TTD",
+        "currencyName": "Trinidad and Tobago Dollar",
+        "issuer": "Trinidad And Tobago",
+        "item": "<img src=\"/flags/tt.svg\" width=\"16\" height=\"16\" alt=\"National flag of Trinidad And Tobago\"> <strong>TTD</strong> Trinidad and Tobago Dollar"
+    },
+    {
+        "name": "TWD New Taiwan Dollar",
+        "rate": "29.71050000000000",
+        "flagImg": "/flags/tw.svg",
+        "flagAlt": "National flag of Taiwan",
+        "currency": "TWD",
+        "currencyName": "New Taiwan Dollar",
+        "issuer": "Taiwan",
+        "item": "<img src=\"/flags/tw.svg\" width=\"16\" height=\"16\" alt=\"National flag of Taiwan\"> <strong>TWD</strong> New Taiwan Dollar"
+    },
+    {
+        "name": "TZS Tanzanian Shilling",
+        "rate": "2333.01752300000000",
+        "flagImg": "/flags/tz.svg",
+        "flagAlt": "National flag of Tanzania",
+        "currency": "TZS",
+        "currencyName": "Tanzanian Shilling",
+        "issuer": "Tanzania",
+        "item": "<img src=\"/flags/tz.svg\" width=\"16\" height=\"16\" alt=\"National flag of Tanzania\"> <strong>TZS</strong> Tanzanian Shilling"
+    },
+    {
+        "name": "UAH Ukrainian Hryvnia",
+        "rate": "29.53044500000000",
+        "flagImg": "/flags/ua.svg",
+        "flagAlt": "National flag of Ukraine",
+        "currency": "UAH",
+        "currencyName": "Ukrainian Hryvnia",
+        "issuer": "Ukraine",
+        "item": "<img src=\"/flags/ua.svg\" width=\"16\" height=\"16\" alt=\"National flag of Ukraine\"> <strong>UAH</strong> Ukrainian Hryvnia"
+    },
+    {
+        "name": "UGX Uganda Shilling",
+        "rate": "3756.69075600000000",
+        "flagImg": "/flags/ug.svg",
+        "flagAlt": "National flag of Uganda",
+        "currency": "UGX",
+        "currencyName": "Uganda Shilling",
+        "issuer": "Uganda",
+        "item": "<img src=\"/flags/ug.svg\" width=\"16\" height=\"16\" alt=\"National flag of Uganda\"> <strong>UGX</strong> Uganda Shilling"
+    },
+    {
+        "name": "UYU Peso Uruguayo",
+        "rate": "39.81783400000000",
+        "flagImg": "/flags/uy.svg",
+        "flagAlt": "National flag of Uruguay",
+        "currency": "UYU",
+        "currencyName": "Peso Uruguayo",
+        "issuer": "Uruguay",
+        "item": "<img src=\"/flags/uy.svg\" width=\"16\" height=\"16\" alt=\"National flag of Uruguay\"> <strong>UYU</strong> Peso Uruguayo"
+    },
+    {
+        "name": "UZS Uzbekistan Sum",
+        "rate": "10837.56000400000000",
+        "flagImg": "/flags/uz.svg",
+        "flagAlt": "National flag of Uzbekistan",
+        "currency": "UZS",
+        "currencyName": "Uzbekistan Sum",
+        "issuer": "Uzbekistan",
+        "item": "<img src=\"/flags/uz.svg\" width=\"16\" height=\"16\" alt=\"National flag of Uzbekistan\"> <strong>UZS</strong> Uzbekistan Sum"
+    },
+    {
+        "name": "VES Bolivar Soberano",
+        "rate": "5.50080000000000",
+        "flagImg": "/flags/ve.svg",
+        "flagAlt": "National flag of Venezuela",
+        "currency": "VES",
+        "currencyName": "Bolivar Soberano",
+        "issuer": "Venezuela",
+        "item": "<img src=\"/flags/ve.svg\" width=\"16\" height=\"16\" alt=\"National flag of Venezuela\"> <strong>VES</strong> Bolivar Soberano"
+    },
+    {
+        "name": "VND Vietnamese Dong",
+        "rate": "23250.40813900000000",
+        "flagImg": "/flags/vn.svg",
+        "flagAlt": "National flag of the Socialist Republic of Vietnam",
+        "currency": "VND",
+        "currencyName": "Vietnamese Dong",
+        "issuer": "Vietnam",
+        "item": "<img src=\"/flags/vn.svg\" width=\"16\" height=\"16\" alt=\"National flag of the Socialist Republic of Vietnam\"> <strong>VND</strong> Vietnamese Dong"
+    },
+    {
+        "name": "VUV Vanuatu Vatu",
+        "rate": "116.80441700000000",
+        "flagImg": "/flags/vu.svg",
+        "flagAlt": "National flag of Vanuatu",
+        "currency": "VUV",
+        "currencyName": "Vanuatu Vatu",
+        "issuer": "Vanuatu",
+        "item": "<img src=\"/flags/vu.svg\" width=\"16\" height=\"16\" alt=\"National flag of Vanuatu\"> <strong>VUV</strong> Vanuatu Vatu"
+    },
+    {
+        "name": "WST Samoan Tala",
+        "rate": "2.66392600000000",
+        "flagImg": "/flags/ws.svg",
+        "flagAlt": "National flag of Samoa",
+        "currency": "WST",
+        "currencyName": "Samoan Tala",
+        "issuer": "Samoa",
+        "item": "<img src=\"/flags/ws.svg\" width=\"16\" height=\"16\" alt=\"National flag of Samoa\"> <strong>WST</strong> Samoan Tala"
+    },
+    {
+        "name": "XAF CFA Franc BEAC",
+        "rate": "620.83970100000000",
+        "flagImg": "/flags/cf.svg",
+        "flagAlt": "National flag of Bank of Central African States",
+        "currency": "XAF",
+        "currencyName": "CFA Franc BEAC",
+        "issuer": "Bank of Central African States",
+        "item": "<img src=\"/flags/cf.svg\" width=\"16\" height=\"16\" alt=\"National flag of Bank of Central African States\"> <strong>XAF</strong> CFA Franc BEAC"
+    },
+    {
+        "name": "XAG Ounce of silver",
+        "rate": "0.04718027000000",
+        "flagImg": "/flags/xx.svg",
+        "flagAlt": "Silver",
+        "currency": "XAG",
+        "currencyName": "Ounce of silver",
+        "issuer": "Silver",
+        "item": "<img src=\"/flags/xx.svg\" width=\"16\" height=\"16\" alt=\"Silver\"> <strong>XAG</strong> Ounce of silver"
+    },
+    {
+        "name": "XAU Ounce of gold",
+        "rate": "0.00054530000000",
+        "flagImg": "/flags/xx.svg",
+        "flagAlt": "Gold",
+        "currency": "XAU",
+        "currencyName": "Ounce of gold",
+        "issuer": "Gold",
+        "item": "<img src=\"/flags/xx.svg\" width=\"16\" height=\"16\" alt=\"Gold\"> <strong>XAU</strong> Ounce of gold"
+    },
+    {
+        "name": "XCD East Caribbean Dollar",
+        "rate": "2.70255000000000",
+        "flagImg": "/flags/xx.svg",
+        "flagAlt": "National flag of Organisation of Eastern Caribbean States",
+        "currency": "XCD",
+        "currencyName": "East Caribbean Dollar",
+        "issuer": "Organisation of Eastern Caribbean States",
+        "item": "<img src=\"/flags/xx.svg\" width=\"16\" height=\"16\" alt=\"National flag of Organisation of Eastern Caribbean States\"> <strong>XCD</strong> East Caribbean Dollar"
+    },
+    {
+        "name": "XDR Special Drawing Rights",
+        "rate": "0.73103300000000",
+        "flagImg": "/flags/xx.svg",
+        "flagAlt": "International Monetary Fund",
+        "currency": "XDR",
+        "currencyName": "Special Drawing Rights",
+        "issuer": "International Monetary Fund",
+        "item": "<img src=\"/flags/xx.svg\" width=\"16\" height=\"16\" alt=\"International Monetary Fund\"> <strong>XDR</strong> Special Drawing Rights"
+    },
+    {
+        "name": "XMR Monero",
+        "rate": "0.00784675270000",
+        "flagImg": "/flags/xmr.svg",
+        "flagAlt": "Monero",
+        "currency": "XMR",
+        "currencyName": "Monero",
+        "issuer": "Cryptocurrency",
+        "item": "<img src=\"/flags/xmr.svg\" width=\"16\" height=\"16\" alt=\"Monero\"> <strong>XMR</strong> Monero"
+    },
+    {
+        "name": "XOF CFA Franc BCEAO",
+        "rate": "620.83970100000000",
+        "flagImg": "/flags/xx.svg",
+        "flagAlt": "National flag of Central Bank of West African States",
+        "currency": "XOF",
+        "currencyName": "CFA Franc BCEAO",
+        "issuer": "Central Bank of West African States",
+        "item": "<img src=\"/flags/xx.svg\" width=\"16\" height=\"16\" alt=\"National flag of Central Bank of West African States\"> <strong>XOF</strong> CFA Franc BCEAO"
+    },
+    {
+        "name": "XPD Ounce of palladium",
+        "rate": "0.00053165000000",
+        "flagImg": "/flags/xx.svg",
+        "flagAlt": "Palladium",
+        "currency": "XPD",
+        "currencyName": "Ounce of palladium",
+        "issuer": "Palladium",
+        "item": "<img src=\"/flags/xx.svg\" width=\"16\" height=\"16\" alt=\"Palladium\"> <strong>XPD</strong> Ounce of palladium"
+    },
+    {
+        "name": "XPF CFP Franc",
+        "rate": "112.94320100000000",
+        "flagImg": "/flags/xx.svg",
+        "flagAlt": "National flag of IEOM",
+        "currency": "XPF",
+        "currencyName": "CFP Franc",
+        "issuer": "IEOM",
+        "item": "<img src=\"/flags/xx.svg\" width=\"16\" height=\"16\" alt=\"National flag of IEOM\"> <strong>XPF</strong> CFP Franc"
+    },
+    {
+        "name": "XPT Ounce of platinum",
+        "rate": "0.00109891000000",
+        "flagImg": "/flags/xx.svg",
+        "flagAlt": "Platinum",
+        "currency": "XPT",
+        "currencyName": "Ounce of platinum",
+        "issuer": "Platinum",
+        "item": "<img src=\"/flags/xx.svg\" width=\"16\" height=\"16\" alt=\"Platinum\"> <strong>XPT</strong> Ounce of platinum"
+    },
+    {
+        "name": "XRP Ripple",
+        "rate": "2.78765099770000",
+        "flagImg": "/flags/xrp.svg",
+        "flagAlt": "Ripple",
+        "currency": "XRP",
+        "currencyName": "Ripple",
+        "issuer": "Cryptocurrency",
+        "item": "<img src=\"/flags/xrp.svg\" width=\"16\" height=\"16\" alt=\"Ripple\"> <strong>XRP</strong> Ripple"
+    },
+    {
+        "name": "YER Yemeni Rial",
+        "rate": "250.24993700000000",
+        "flagImg": "/flags/ye.svg",
+        "flagAlt": "National flag of Yemen",
+        "currency": "YER",
+        "currencyName": "Yemeni Rial",
+        "issuer": "Yemen",
+        "item": "<img src=\"/flags/ye.svg\" width=\"16\" height=\"16\" alt=\"National flag of Yemen\"> <strong>YER</strong> Yemeni Rial"
+    },
+    {
+        "name": "ZAR South African Rand",
+        "rate": "15.79515000000000",
+        "flagImg": "/flags/za.svg",
+        "flagAlt": "National flag of Republic of South Africa",
+        "currency": "ZAR",
+        "currencyName": "South African Rand",
+        "issuer": "Republic of South Africa",
+        "item": "<img src=\"/flags/za.svg\" width=\"16\" height=\"16\" alt=\"National flag of Republic of South Africa\"> <strong>ZAR</strong> South African Rand"
+    },
+    {
+        "name": "ZMW Zambian Kwacha",
+        "rate": "17.05257200000000",
+        "flagImg": "/flags/zm.svg",
+        "flagAlt": "National flag of Zambia",
+        "currency": "ZMW",
+        "currencyName": "Zambian Kwacha",
+        "issuer": "Zambia",
+        "item": "<img src=\"/flags/zm.svg\" width=\"16\" height=\"16\" alt=\"National flag of Zambia\"> <strong>ZMW</strong> Zambian Kwacha"
+    },
+    {
+        "name": "ZWL Zimbabwean Dollar",
+        "rate": "322.00000000000000",
+        "flagImg": "/flags/zw.svg",
+        "flagAlt": "National flag of Zimbabwe",
+        "currency": "ZWL",
+        "currencyName": "Zimbabwean Dollar",
+        "issuer": "Zimbabwe",
+        "item": "<img src=\"/flags/zw.svg\" width=\"16\" height=\"16\" alt=\"National flag of Zimbabwe\"> <strong>ZWL</strong> Zimbabwean Dollar"
+    }
+]
