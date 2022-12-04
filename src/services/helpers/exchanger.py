@@ -52,7 +52,8 @@ class ExchengeRateLabel(BaseExchange):
     def fetch_exchage_rate(self, *args, **kwargs):
         url = f"{self.url}/get-rates"
         self.querystring = {
-                "date": str(datetime.datetime.today().date())}
+                "date": str(datetime.datetime.today().date())
+            }
         response = requests.request("GET", url, data=self.payload, headers=self.headers, params=self.querystring)
         if response.status_code >= 200 and response.status_code < 400:
             self.rates = response.json()

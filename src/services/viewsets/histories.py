@@ -68,7 +68,7 @@ class HistoryOneDayViewsets(generics.ListAPIView, viewsets.GenericViewSet):
             **params, 
             "histories": exchange.data,
             "data": {
-                "value": exchange.data[1][1],
+                "value": round(exchange.data[1][1], 2),
                 "change": round(change_rate, 2),
                 "percentage": round(change_rate_percentage * 100, 2)
             }
