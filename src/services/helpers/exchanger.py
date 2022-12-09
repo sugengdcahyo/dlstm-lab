@@ -55,6 +55,7 @@ class ExchengeRateLabel(BaseExchange):
                 "date": str(datetime.datetime.today().date())
             }
         response = requests.request("GET", url, data=self.payload, headers=self.headers, params=self.querystring)
+        print(response.url)
         if response.status_code >= 200 and response.status_code < 400:
             self.rates = response.json()
         else:

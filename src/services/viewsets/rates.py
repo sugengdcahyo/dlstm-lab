@@ -17,14 +17,13 @@ class RatesViewsets(generics.ListAPIView, viewsets.GenericViewSet):
 
         response = []
 
-        if q == 'currency' or not q:
-            print("disini")
-            for resp in exchange.rates:
+        for resp in exchange.rates:
+            resp['flagImg'] = f"https://exchangerate.guru{resp['flagImg']}" 
+            if q == 'currency' or not q:
                 if resp['issuer'] != 'Cryptocurrency':
                     response.append(resp)
 
-        elif q == 'crypto' or q == 'cryptocurrency':
-            for resp in exchange.rates:
+            elif q == 'crypto' or q == 'cryptocurrency':
                 if resp['issuer'] == 'Cryptocurrency':
                     response.append(resp)
 
