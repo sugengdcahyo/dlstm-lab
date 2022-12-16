@@ -1,0 +1,19 @@
+name: dlstm-cicd
+
+on:
+  push:
+    branches: ["master"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: python:3.8
+    steps:
+      - uses: actions/checkout@v2
+      - name: install dependencies
+        run: |
+          apt-get update && apt-get install --no-install-recommends -y
+          pip install -r src/requirements.txt
+      - name: run django test
+        run: | 
+          python src/manage.py test
