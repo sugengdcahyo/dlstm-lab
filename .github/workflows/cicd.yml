@@ -12,6 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: install dependencies
         run: |
+          ls
           apt-get update && apt-get install --no-install-recommends -y
           pip install -r src/requirements.txt
       - name: run django test
