@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
       - name: Deploy using ssh
+        uses: appleboy/ssh-action@v0.1.6
       - shell: bash
         run: | 
           echo ${{ secrets.HOST }} ${{ secrets.USERNAME }}
