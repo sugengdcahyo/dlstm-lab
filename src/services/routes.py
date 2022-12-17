@@ -18,6 +18,6 @@ router.register('histories', HistoriesViewsets, basename='histories-viewsets')
 router.register('latest-day', HistoryOneDayViewsets, basename='latest-day-histories-viewsets')
 router.register('predict', PredictViewsets, basename='predict-viewsets')
 router.register('rates', RatesViewsets, basename='get-range-exchange')
-router.register('models', ModelViewsets, basename='models-viewsets')
+# router.register('models', ModelViewsets, basename='models-viewsets')
 
 service_urls = router.urls
