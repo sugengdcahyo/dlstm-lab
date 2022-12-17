@@ -11,34 +11,14 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
       - name: ssh key passphrase
-        uses: appleboy/ssh-action@v0.1.6
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.PRIVATE_KEY }}
-          port: 22
-          script: |
-            whoami
-            ls -al
-  deploy:
-
-    runs-on: ubuntu-latest
-    steps:
-    - name: Build django dependencies
-      uses: appleboy/ssh-action@v0.1.6
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.PRIVATE_KEY }}
-        port: 22
-        script: |
-          cd ~/dlstm-lab
-          git pull origin -f master
-          git status
-          source bin/activate
-          pip install --upgrade pip
-          pip install -r requirements.txt
-
-    - name: Run Tests
-      run: |
-        python manage.py test
+        run: |
+          ${{ secrets.HOST }}
+        # uses: appleboy/ssh-action@v0.1.6
+        # with:
+        # host: ${{ secrets.HOST }}
+        # username: ${{ secrets.USERNAME }}
+        # key: ${{ secrets.PRIVATE_KEY }}
+        # port: 22
+        # script: |
+        # whoami
+        # ls -al
