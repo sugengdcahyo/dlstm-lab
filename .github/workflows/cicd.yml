@@ -19,3 +19,8 @@ jobs:
         run: | 
           python src/manage.py test
 
+  build:
+    step:
+      - name: build applications
+        run: |
+          ssh -i $KEY $USER@$HOST
