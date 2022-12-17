@@ -5,6 +5,9 @@ on:
     branches: ["master"]
 
 jobs:
+  build:
+      
+
   test:
     runs-on: ubuntu-latest
     container: python:3.8
@@ -18,3 +21,4 @@ jobs:
       - name: run django test
         run: | 
           python src/manage.py test
+
