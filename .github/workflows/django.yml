@@ -19,9 +19,11 @@ jobs:
         port: 22
         script: |
             cd ~/dlstm-lab
+            ls
             git pull origin -f master
             git status
 
             source bin/activate
             pip install -r requirements.txt
-            sudo systemctl restart dlstm
+            sudo systemctl restart dlstm 
+            echo "DEPLOYMENT SUCCESS!"
