@@ -20,7 +20,8 @@ jobs:
           python src/manage.py test
 
   build:
-    step:
+    runs-on: ubuntu-latest
+    steps:
       - name: build applications
         run: |
           ssh -i $KEY $USER@$HOST
