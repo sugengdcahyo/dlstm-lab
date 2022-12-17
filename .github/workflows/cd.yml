@@ -1,9 +1,12 @@
-name: django cd
-on: [push]
-jobs:
+name: dlstm cd
 
+on: 
+  push:
+    branches: ["master"]
+
+jobs:
   build:
-    name: Build
+    name: build dlstm lab 
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
