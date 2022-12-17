@@ -10,12 +10,16 @@ jobs:
   build:
     runs-on: ubuntu-latest 
     steps:
-      - name: Deploy using ssh
+      - name: ssh key passphrase
         uses: appleboy/ssh-action@v0.1.6
-      - shell: bash
-        run: | 
-          echo ${{ secrets.HOST }} ${{ secrets.USERNAME }}
-
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          port: 22
+          script: |
+            whoami
+            ls -al
   deploy:
 
     runs-on: ubuntu-latest
