@@ -9,7 +9,7 @@ from rest_framework.response import Response
 
 class RatesViewsets(generics.ListAPIView, viewsets.GenericViewSet):
     permission_classes = (permissions.AllowAny,)
-
+    
     def list(self, request, *args, **kwargs):
         q = request.GET.get('q', None)
         exchange = ExchengeRateLabel()
