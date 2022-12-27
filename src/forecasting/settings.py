@@ -31,6 +31,8 @@ ALLOWED_HOSTS = [
     "127.0.0.1", 
     "dlstm.sugengdcahyo.com",
     "mekarsa.com",
+    "mekarsa.local",
+    "w3.mekarsa.com",
     "*.mekarsa.com",
 ]
 
