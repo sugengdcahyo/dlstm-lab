@@ -60,7 +60,10 @@ from .crontab_config import *
 CORS_ALLOWED_ORIGINS = [
     "https://dukun.sugengdcahyo.com",
     "https://exchange.mekarsa.com",
-    "http://localhost:8080"
+    "http://localhost:8080",
+    "http://mekarsa.local",
+    "https://w3.mekarsa.com",
+    "https://*.mekarsa.com"
 ]
 
 CORS_ALLOW_METHODS = [
