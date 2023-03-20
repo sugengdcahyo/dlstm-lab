@@ -9,4 +9,3 @@ def recorder(bcc, scc):
             with open(f"records/{bcc}_{scc}_exchange_record_{i}.txt", 'a') as f:
                 f.write(f"{daily[0]}, {daily[1]}")
                 f.write(f"\n")
-        print(i)
